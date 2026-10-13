@@ -1,0 +1,47 @@
+[
+  {
+    "team_id": 101,
+    "players": [
+      {
+        "id": 1,
+        "name": "Twin, Ω",
+        "starter": true
+      },
+      {
+        "id": 2,
+        "name": "Twin, Ω",
+        "starter": true
+      },
+      {
+        "id": 3,
+        "name": "Player 3",
+        "starter": true
+      },
+      {
+        "id": 4,
+        "name": "Player 4",
+        "starter": false
+      },
+      {
+        "id": 5,
+        "name": "Player 5",
+        "starter": false
+      },
+      {
+        "id": 6,
+        "name": "Player 6",
+        "starter": false
+      }
+    ]
+  },
+  {
+    "team_id": 202,
+    "players": [
+      {
+        "id": 1,
+        "name": "Twin, Ω",
+        "starter": true
+      }
+    ]
+  }
+]

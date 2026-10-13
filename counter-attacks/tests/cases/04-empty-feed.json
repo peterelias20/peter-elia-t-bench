@@ -1,0 +1,52 @@
+{
+  "name": "empty-feed",
+  "header": [
+    "recovery_id",
+    "shot_id",
+    "team_id",
+    "seconds",
+    "distance_forward"
+  ],
+  "events": [],
+  "match": {
+    "teams": [
+      {
+        "id": 101,
+        "name": "Amber, FC",
+        "attack_sign": {
+          "1": 1,
+          "2": -1,
+          "3": -1
+        }
+      },
+      {
+        "id": 202,
+        "name": "Cobalt Ω",
+        "attack_sign": {
+          "1": -1,
+          "2": 1,
+          "3": 1
+        }
+      }
+    ],
+    "periods": [
+      {
+        "id": 1,
+        "offset_ms": 0,
+        "duration_ms": 2700000
+      },
+      {
+        "id": 2,
+        "offset_ms": 2700000,
+        "duration_ms": 2700000
+      },
+      {
+        "id": 3,
+        "offset_ms": 5400000,
+        "duration_ms": 900000
+      }
+    ]
+  },
+  "lineups": null,
+  "expected": []
+}

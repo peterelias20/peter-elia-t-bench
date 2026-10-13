@@ -1,0 +1,708 @@
+[
+  {
+    "id": "iblock",
+    "revision": 0,
+    "period": 1,
+    "index": 1,
+    "timestamp": "00:01:20.000",
+    "minute": 99,
+    "second": 59,
+    "possession": 6,
+    "team": {
+      "id": 202,
+      "name": "MISLEADING TEAM"
+    },
+    "player": {
+      "id": 1,
+      "name": "Same Name"
+    },
+    "type": {
+      "name": "Carry"
+    },
+    "play_pattern": {
+      "name": "Open Play"
+    },
+    "location": [
+      40,
+      40
+    ]
+  },
+  {
+    "id": "sg",
+    "revision": 0,
+    "period": 1,
+    "index": 0,
+    "timestamp": "00:01:02.001",
+    "minute": 99,
+    "second": 59,
+    "possession": 4,
+    "team": {
+      "id": 101,
+      "name": "MISLEADING TEAM"
+    },
+    "player": {
+      "id": 1,
+      "name": "Same Name"
+    },
+    "type": {
+      "name": "Shot"
+    },
+    "play_pattern": {
+      "name": "Open Play"
+    },
+    "location": [
+      50,
+      40
+    ]
+  },
+  {
+    "id": "se",
+    "revision": 0,
+    "period": 1,
+    "index": 0,
+    "timestamp": "00:00:42.000",
+    "minute": 99,
+    "second": 59,
+    "possession": 3,
+    "team": {
+      "id": 101,
+      "name": "MISLEADING TEAM"
+    },
+    "player": {
+      "id": 1,
+      "name": "Same Name"
+    },
+    "type": {
+      "name": "Shot"
+    },
+    "play_pattern": {
+      "name": "Open Play"
+    },
+    "location": [
+      45,
+      40
+    ]
+  },
+  {
+    "id": "jbreak",
+    "revision": 0,
+    "period": 1,
+    "index": 0,
+    "timestamp": "00:01:30.500",
+    "minute": 99,
+    "second": 59,
+    "possession": 7,
+    "team": {
+      "id": 101,
+      "name": "MISLEADING TEAM"
+    },
+    "player": {
+      "id": 1,
+      "name": "Same Name"
+    },
+    "type": {
+      "name": "Pressure"
+    },
+    "play_pattern": {
+      "name": "From Corner"
+    },
+    "location": [
+      60,
+      40
+    ]
+  },
+  {
+    "id": "rj",
+    "revision": 0,
+    "period": 1,
+    "index": 0,
+    "timestamp": "00:01:30.000",
+    "minute": 99,
+    "second": 59,
+    "possession": 7,
+    "team": {
+      "id": 101,
+      "name": "MISLEADING TEAM"
+    },
+    "player": {
+      "id": 1,
+      "name": "Same Name"
+    },
+    "type": {
+      "name": "Ball Recovery"
+    },
+    "play_pattern": {
+      "name": "Open Play"
+    },
+    "location": [
+      30,
+      40
+    ]
+  },
+  {
+    "id": "sc",
+    "revision": 0,
+    "period": 1,
+    "index": 0,
+    "timestamp": "00:00:22.000",
+    "minute": 99,
+    "second": 59,
+    "possession": 2,
+    "team": {
+      "id": 101,
+      "name": "MISLEADING TEAM"
+    },
+    "player": {
+      "id": 1,
+      "name": "Same Name"
+    },
+    "type": {
+      "name": "Shot"
+    },
+    "play_pattern": {
+      "name": "Open Play"
+    },
+    "location": [
+      50,
+      40
+    ]
+  },
+  {
+    "id": "rd",
+    "revision": 0,
+    "period": 1,
+    "index": 0,
+    "timestamp": "00:00:21.000",
+    "minute": 99,
+    "second": 59,
+    "possession": 2,
+    "team": {
+      "id": 101,
+      "name": "MISLEADING TEAM"
+    },
+    "player": {
+      "id": 1,
+      "name": "Same Name"
+    },
+    "type": {
+      "name": "Ball Recovery"
+    },
+    "play_pattern": {
+      "name": "Open Play"
+    },
+    "location": [
+      30,
+      40
+    ]
+  },
+  {
+    "id": "sf",
+    "revision": 0,
+    "period": 1,
+    "index": 1,
+    "timestamp": "00:00:42.000",
+    "minute": 99,
+    "second": 59,
+    "possession": 3,
+    "team": {
+      "id": 101,
+      "name": "MISLEADING TEAM"
+    },
+    "player": {
+      "id": 1,
+      "name": "Same Name"
+    },
+    "type": {
+      "name": "Shot"
+    },
+    "play_pattern": {
+      "name": "Open Play"
+    },
+    "location": [
+      45,
+      40
+    ]
+  },
+  {
+    "id": "ri",
+    "revision": 0,
+    "period": 1,
+    "index": 0,
+    "timestamp": "00:01:20.000",
+    "minute": 99,
+    "second": 59,
+    "possession": 6,
+    "team": {
+      "id": 101,
+      "name": "MISLEADING TEAM"
+    },
+    "player": {
+      "id": 1,
+      "name": "Same Name"
+    },
+    "type": {
+      "name": "Ball Recovery"
+    },
+    "play_pattern": {
+      "name": "Open Play"
+    },
+    "location": [
+      30,
+      40
+    ]
+  },
+  {
+    "id": "rk",
+    "revision": 0,
+    "period": 1,
+    "index": 0,
+    "timestamp": "00:01:40.000",
+    "minute": 99,
+    "second": 59,
+    "possession": 8,
+    "team": {
+      "id": 101,
+      "name": "MISLEADING TEAM"
+    },
+    "player": {
+      "id": 1,
+      "name": "Same Name"
+    },
+    "type": {
+      "name": "Ball Recovery"
+    },
+    "play_pattern": {
+      "name": "Open Play"
+    },
+    "location": [
+      30,
+      40
+    ]
+  },
+  {
+    "id": "rg",
+    "revision": 0,
+    "period": 1,
+    "index": 0,
+    "timestamp": "00:00:50.000",
+    "minute": 99,
+    "second": 59,
+    "possession": 4,
+    "team": {
+      "id": 101,
+      "name": "MISLEADING TEAM"
+    },
+    "player": {
+      "id": 1,
+      "name": "Same Name"
+    },
+    "type": {
+      "name": "Ball Recovery"
+    },
+    "play_pattern": {
+      "name": "Open Play"
+    },
+    "location": [
+      30,
+      40
+    ]
+  },
+  {
+    "id": "si",
+    "revision": 0,
+    "period": 1,
+    "index": 0,
+    "timestamp": "00:01:21.000",
+    "minute": 99,
+    "second": 59,
+    "possession": 6,
+    "team": {
+      "id": 101,
+      "name": "MISLEADING TEAM"
+    },
+    "player": {
+      "id": 1,
+      "name": "Same Name"
+    },
+    "type": {
+      "name": "Shot"
+    },
+    "play_pattern": {
+      "name": "Open Play"
+    },
+    "location": [
+      50,
+      40
+    ]
+  },
+  {
+    "id": "rb",
+    "revision": 0,
+    "period": 1,
+    "index": 0,
+    "timestamp": "00:00:11.000",
+    "minute": 99,
+    "second": 59,
+    "possession": 1,
+    "team": {
+      "id": 101,
+      "name": "MISLEADING TEAM"
+    },
+    "player": {
+      "id": 1,
+      "name": "Same Name"
+    },
+    "type": {
+      "name": "Interception"
+    },
+    "play_pattern": {
+      "name": "Open Play"
+    },
+    "location": [
+      60,
+      40
+    ],
+    "outcome": {
+      "name": "Won"
+    }
+  },
+  {
+    "id": "sh",
+    "revision": 0,
+    "period": 1,
+    "index": 0,
+    "timestamp": "00:01:11.000",
+    "minute": 99,
+    "second": 59,
+    "possession": 5,
+    "team": {
+      "id": 101,
+      "name": "MISLEADING TEAM"
+    },
+    "player": {
+      "id": 1,
+      "name": "Same Name"
+    },
+    "type": {
+      "name": "Shot"
+    },
+    "play_pattern": {
+      "name": "Open Play"
+    },
+    "location": [
+      50,
+      40
+    ]
+  },
+  {
+    "id": "sk",
+    "revision": 0,
+    "period": 1,
+    "index": 0,
+    "timestamp": "00:01:41.000",
+    "minute": 99,
+    "second": 59,
+    "possession": 8,
+    "team": {
+      "id": 101,
+      "name": "MISLEADING TEAM"
+    },
+    "player": {
+      "id": 1,
+      "name": "Same Name"
+    },
+    "type": {
+      "name": "Shot"
+    },
+    "play_pattern": {
+      "name": "Open Play"
+    },
+    "location": [
+      44.9999,
+      40
+    ]
+  },
+  {
+    "id": "rh",
+    "revision": 0,
+    "period": 1,
+    "index": 0,
+    "timestamp": "00:01:10.000",
+    "minute": 99,
+    "second": 59,
+    "possession": 5,
+    "team": {
+      "id": 101,
+      "name": "MISLEADING TEAM"
+    },
+    "player": {
+      "id": 1,
+      "name": "Same Name"
+    },
+    "type": {
+      "name": "Duel"
+    },
+    "play_pattern": {
+      "name": "Open Play"
+    },
+    "location": [
+      30,
+      40
+    ],
+    "outcome": {
+      "name": "Lost"
+    }
+  },
+  {
+    "id": "sa",
+    "revision": 0,
+    "period": 1,
+    "index": 0,
+    "timestamp": "00:00:12.000",
+    "minute": 99,
+    "second": 59,
+    "possession": 1,
+    "team": {
+      "id": 101,
+      "name": "MISLEADING TEAM"
+    },
+    "player": {
+      "id": 1,
+      "name": "Same Name"
+    },
+    "type": {
+      "name": "Shot"
+    },
+    "play_pattern": {
+      "name": "Open Play"
+    },
+    "location": [
+      80,
+      40
+    ]
+  },
+  {
+    "id": "rl",
+    "revision": 0,
+    "period": 2,
+    "index": 0,
+    "timestamp": "00:00:01.000",
+    "minute": 99,
+    "second": 59,
+    "possession": 9,
+    "team": {
+      "id": 101,
+      "name": "MISLEADING TEAM"
+    },
+    "player": {
+      "id": 1,
+      "name": "Same Name"
+    },
+    "type": {
+      "name": "Ball Recovery"
+    },
+    "play_pattern": {
+      "name": "Open Play"
+    },
+    "location": [
+      80,
+      40
+    ]
+  },
+  {
+    "id": "rc",
+    "revision": 0,
+    "period": 1,
+    "index": 0,
+    "timestamp": "00:00:20.000",
+    "minute": 99,
+    "second": 59,
+    "possession": 2,
+    "team": {
+      "id": 101,
+      "name": "MISLEADING TEAM"
+    },
+    "player": {
+      "id": 1,
+      "name": "Same Name"
+    },
+    "type": {
+      "name": "Ball Recovery"
+    },
+    "play_pattern": {
+      "name": "Open Play"
+    },
+    "location": [
+      30,
+      40
+    ]
+  },
+  {
+    "id": "sl",
+    "revision": 0,
+    "period": 2,
+    "index": 0,
+    "timestamp": "00:00:13.000",
+    "minute": 99,
+    "second": 59,
+    "possession": 9,
+    "team": {
+      "id": 101,
+      "name": "MISLEADING TEAM"
+    },
+    "player": {
+      "id": 1,
+      "name": "Same Name"
+    },
+    "type": {
+      "name": "Shot"
+    },
+    "play_pattern": {
+      "name": "Open Play"
+    },
+    "location": [
+      65,
+      40
+    ]
+  },
+  {
+    "id": "re",
+    "revision": 0,
+    "period": 1,
+    "index": 0,
+    "timestamp": "00:00:30.000",
+    "minute": 99,
+    "second": 59,
+    "possession": 3,
+    "team": {
+      "id": 101,
+      "name": "MISLEADING TEAM"
+    },
+    "player": {
+      "id": 1,
+      "name": "Same Name"
+    },
+    "type": {
+      "name": "Ball Recovery"
+    },
+    "play_pattern": {
+      "name": "Open Play"
+    },
+    "location": [
+      30,
+      40
+    ]
+  },
+  {
+    "id": "rf",
+    "revision": 0,
+    "period": 1,
+    "index": 1,
+    "timestamp": "00:00:30.000",
+    "minute": 99,
+    "second": 59,
+    "possession": 3,
+    "team": {
+      "id": 101,
+      "name": "MISLEADING TEAM"
+    },
+    "player": {
+      "id": 1,
+      "name": "Same Name"
+    },
+    "type": {
+      "name": "Ball Recovery"
+    },
+    "play_pattern": {
+      "name": "Open Play"
+    },
+    "location": [
+      30,
+      40
+    ]
+  },
+  {
+    "id": "ra",
+    "revision": 0,
+    "period": 1,
+    "index": 0,
+    "timestamp": "00:00:10.000",
+    "minute": 99,
+    "second": 59,
+    "possession": 1,
+    "team": {
+      "id": 101,
+      "name": "MISLEADING TEAM"
+    },
+    "player": {
+      "id": 1,
+      "name": "Same Name"
+    },
+    "type": {
+      "name": "Ball Recovery"
+    },
+    "play_pattern": {
+      "name": "Open Play"
+    },
+    "location": [
+      30,
+      40
+    ]
+  },
+  {
+    "id": "sb",
+    "revision": 0,
+    "period": 1,
+    "index": 0,
+    "timestamp": "00:00:13.000",
+    "minute": 99,
+    "second": 59,
+    "possession": 1,
+    "team": {
+      "id": 101,
+      "name": "MISLEADING TEAM"
+    },
+    "player": {
+      "id": 1,
+      "name": "Same Name"
+    },
+    "type": {
+      "name": "Shot"
+    },
+    "play_pattern": {
+      "name": "Open Play"
+    },
+    "location": [
+      50,
+      40
+    ]
+  },
+  {
+    "id": "sj",
+    "revision": 0,
+    "period": 1,
+    "index": 0,
+    "timestamp": "00:01:31.000",
+    "minute": 99,
+    "second": 59,
+    "possession": 7,
+    "team": {
+      "id": 101,
+      "name": "MISLEADING TEAM"
+    },
+    "player": {
+      "id": 1,
+      "name": "Same Name"
+    },
+    "type": {
+      "name": "Shot"
+    },
+    "play_pattern": {
+      "name": "Open Play"
+    },
+    "location": [
+      50,
+      40
+    ]
+  }
+]

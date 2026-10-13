@@ -1,19 +1,41 @@
 # peter-elia-t-bench
 
-10 deterministic StatsBomb-style T-Bench tasks (StatsBomb open-data inspired, fully synthetic fixtures).
+Ten synthetic football analytics tasks, each targeting hard difficulty.
 
-| Task | Difficulty | Skill |
+| Task name | Folder | Challenge |
 |---|---|---|
-| 01-forward-passes | easy | forward filter + half-time flip |
-| 02-progressive-carries | medium | 10m + final third, missing-field skip |
-| 03-switch-of-play | medium | recomputed length, wing flip, anti-cheat decoys |
-| 04-possession-chains | medium | (possession, play_pattern) groupby |
-| 05-press-then-win | hard | 5s temporal join |
-| 06-shot-ending-sequences | medium | N=5 backward walk + breaks |
-| 07-crosses | easy | nested cross + box |
-| 08-set-piece-splitter | easy | precedence-table tagging |
-| 09-counter-attacks | hard | <12s + 15m + same chain |
-| 10-lineup-consistency | medium | two-file join + sub minutes |
+| codimango/forward-passes | forward-passes | Reconciled goalward passes, verified receivers and line crossings |
+| codimango/progressive-carries | progressive-carries | Maximal carry stitching, spatial gaps and path efficiency |
+| codimango/switch-of-play | switch-of-play | Normalized wing switches with verified reception and retention |
+| codimango/possession-chains | possession-chains | Contiguous segments, terminal events and signed progression |
+| codimango/press-then-win | press-then-win | Maximum-cardinality attribution with cost and lexical tie breaking |
+| codimango/shot-ending-sequences | shot-ending-sequences | Bounded backward reconstruction with transparent pressure events |
+| codimango/crosses | crosses | Cross reception, shot provenance and competing assist attribution |
+| codimango/set-piece-splitter | set-piece-splitter | Stateful restart precedence, expiry and provenance |
+| codimango/counter-attacks | counter-attacks | Optimal recovery-to-shot matching with intervening-control constraints |
+| codimango/lineup-consistency | lineup-consistency | Atomic substitutions, reentries, dismissals and playing intervals |
 
-Each task: `task.toml`, `instruction.md`, `environment/Dockerfile` (+`events.json`/`lineups.json`), `solution/solve.sh`+`solve.py`, `tests/test.sh`+`test_outputs.py`, `README.md`.
-Inputs at `/workspace/events.json` (`/workspace/lineups.json` for task 10), output `/workspace/output.csv`.
+Each package contains `task.toml`, `instruction.md`, `environment/`, private
+`solution/`, and `tests/`. Only input JSON files are copied into the agent image.
+Submit `/workspace/analyze.py` and `/workspace/output.csv`. The analyzer must
+accept arbitrary input/output paths; see each task's instruction for its schema.
+
+All feeds require revision reconciliation and authoritative team IDs/directions.
+The verifier checks every output field and row order, then executes the submitted
+analyzer on five frozen cases. It never runs the reference solution while grading
+an agent submission. The task harness must inject private tests after the agent
+turn and run the Linux verifier as root so candidate code can be isolated as
+`nobody`.
+
+```sh
+python3 tools/verify_tasks.py
+```
+
+Author generators in `tools/` rebuild the packages and independent labels:
+
+```sh
+python3 tools/build_tasks.py
+```
+
+Difficulty labels describe the intended challenge. Model pass rates for these
+revisions are not yet measured. See [HARDENING.md](HARDENING.md).

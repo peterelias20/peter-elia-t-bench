@@ -1,0 +1,914 @@
+{
+  "name": "base",
+  "header": [
+    "pressure_id",
+    "win_id",
+    "team_id",
+    "seconds_between",
+    "distance"
+  ],
+  "events": [
+    {
+      "id": "pj",
+      "revision": 0,
+      "period": 1,
+      "index": 0,
+      "timestamp": "00:01:10.000",
+      "minute": 99,
+      "second": 59,
+      "possession": 7,
+      "team": {
+        "id": 101,
+        "name": "MISLEADING TEAM"
+      },
+      "player": {
+        "id": 1,
+        "name": "Same Name"
+      },
+      "type": {
+        "name": "Pressure"
+      },
+      "play_pattern": {
+        "name": "Open Play"
+      },
+      "location": [
+        60,
+        40
+      ]
+    },
+    {
+      "id": "wh",
+      "revision": 0,
+      "period": 1,
+      "index": 0,
+      "timestamp": "00:00:51.000",
+      "minute": 99,
+      "second": 59,
+      "possession": 5,
+      "team": {
+        "id": 101,
+        "name": "MISLEADING TEAM"
+      },
+      "player": {
+        "id": 1,
+        "name": "Same Name"
+      },
+      "type": {
+        "name": "Duel"
+      },
+      "play_pattern": {
+        "name": "Open Play"
+      },
+      "location": [
+        60,
+        40
+      ],
+      "outcome": {
+        "name": "Lost"
+      }
+    },
+    {
+      "id": "wf",
+      "revision": 0,
+      "period": 1,
+      "index": 1,
+      "timestamp": "00:00:35.000",
+      "minute": 99,
+      "second": 59,
+      "possession": 3,
+      "team": {
+        "id": 101,
+        "name": "MISLEADING TEAM"
+      },
+      "player": {
+        "id": 1,
+        "name": "Same Name"
+      },
+      "type": {
+        "name": "Duel"
+      },
+      "play_pattern": {
+        "name": "Open Play"
+      },
+      "location": [
+        50,
+        40
+      ],
+      "outcome": {
+        "name": "Won"
+      }
+    },
+    {
+      "id": "wk",
+      "revision": 0,
+      "period": 1,
+      "index": 1,
+      "timestamp": "00:01:20.000",
+      "minute": 99,
+      "second": 59,
+      "possession": 8,
+      "team": {
+        "id": 101,
+        "name": "MISLEADING TEAM"
+      },
+      "player": {
+        "id": 1,
+        "name": "Same Name"
+      },
+      "type": {
+        "name": "Ball Recovery"
+      },
+      "play_pattern": {
+        "name": "Open Play"
+      },
+      "location": [
+        60,
+        40
+      ]
+    },
+    {
+      "id": "pk",
+      "revision": 0,
+      "period": 1,
+      "index": 0,
+      "timestamp": "00:01:20.000",
+      "minute": 99,
+      "second": 59,
+      "possession": 8,
+      "team": {
+        "id": 101,
+        "name": "MISLEADING TEAM"
+      },
+      "player": {
+        "id": 1,
+        "name": "Same Name"
+      },
+      "type": {
+        "name": "Pressure"
+      },
+      "play_pattern": {
+        "name": "Open Play"
+      },
+      "location": [
+        60,
+        40
+      ]
+    },
+    {
+      "id": "wc",
+      "revision": 0,
+      "period": 1,
+      "index": 0,
+      "timestamp": "00:00:22.000",
+      "minute": 99,
+      "second": 59,
+      "possession": 2,
+      "team": {
+        "id": 101,
+        "name": "MISLEADING TEAM"
+      },
+      "player": {
+        "id": 1,
+        "name": "Same Name"
+      },
+      "type": {
+        "name": "Ball Recovery"
+      },
+      "play_pattern": {
+        "name": "Open Play"
+      },
+      "location": [
+        50,
+        40
+      ]
+    },
+    {
+      "id": "pd",
+      "revision": 0,
+      "period": 1,
+      "index": 0,
+      "timestamp": "00:00:21.000",
+      "minute": 99,
+      "second": 59,
+      "possession": 2,
+      "team": {
+        "id": 101,
+        "name": "MISLEADING TEAM"
+      },
+      "player": {
+        "id": 1,
+        "name": "Same Name"
+      },
+      "type": {
+        "name": "Pressure"
+      },
+      "play_pattern": {
+        "name": "Open Play"
+      },
+      "location": [
+        50,
+        40
+      ]
+    },
+    {
+      "id": "wg",
+      "revision": 0,
+      "period": 1,
+      "index": 0,
+      "timestamp": "00:00:45.001",
+      "minute": 99,
+      "second": 59,
+      "possession": 4,
+      "team": {
+        "id": 101,
+        "name": "MISLEADING TEAM"
+      },
+      "player": {
+        "id": 1,
+        "name": "Same Name"
+      },
+      "type": {
+        "name": "Ball Recovery"
+      },
+      "play_pattern": {
+        "name": "Open Play"
+      },
+      "location": [
+        60,
+        40
+      ]
+    },
+    {
+      "id": "pg",
+      "revision": 0,
+      "period": 1,
+      "index": 0,
+      "timestamp": "00:00:40.000",
+      "minute": 99,
+      "second": 59,
+      "possession": 4,
+      "team": {
+        "id": 101,
+        "name": "MISLEADING TEAM"
+      },
+      "player": {
+        "id": 1,
+        "name": "Same Name"
+      },
+      "type": {
+        "name": "Pressure"
+      },
+      "play_pattern": {
+        "name": "Open Play"
+      },
+      "location": [
+        60,
+        40
+      ]
+    },
+    {
+      "id": "pi",
+      "revision": 0,
+      "period": 1,
+      "index": 0,
+      "timestamp": "00:01:00.000",
+      "minute": 99,
+      "second": 59,
+      "possession": 6,
+      "team": {
+        "id": 101,
+        "name": "MISLEADING TEAM"
+      },
+      "player": {
+        "id": 1,
+        "name": "Same Name"
+      },
+      "type": {
+        "name": "Pressure"
+      },
+      "play_pattern": {
+        "name": "Open Play"
+      },
+      "location": [
+        60,
+        40
+      ]
+    },
+    {
+      "id": "we",
+      "revision": 0,
+      "period": 1,
+      "index": 0,
+      "timestamp": "00:00:35.000",
+      "minute": 99,
+      "second": 59,
+      "possession": 3,
+      "team": {
+        "id": 101,
+        "name": "MISLEADING TEAM"
+      },
+      "player": {
+        "id": 1,
+        "name": "Same Name"
+      },
+      "type": {
+        "name": "Ball Recovery"
+      },
+      "play_pattern": {
+        "name": "Open Play"
+      },
+      "location": [
+        60,
+        40
+      ]
+    },
+    {
+      "id": "wl",
+      "revision": 0,
+      "period": 1,
+      "index": 0,
+      "timestamp": "00:01:31.000",
+      "minute": 99,
+      "second": 59,
+      "possession": 9,
+      "team": {
+        "id": 101,
+        "name": "MISLEADING TEAM"
+      },
+      "player": {
+        "id": 1,
+        "name": "Same Name"
+      },
+      "type": {
+        "name": "Ball Recovery"
+      },
+      "play_pattern": {
+        "name": "Open Play"
+      },
+      "location": [
+        60,
+        40
+      ]
+    },
+    {
+      "id": "pattern",
+      "revision": 0,
+      "period": 1,
+      "index": 0,
+      "timestamp": "00:01:10.500",
+      "minute": 99,
+      "second": 59,
+      "possession": 7,
+      "team": {
+        "id": 101,
+        "name": "MISLEADING TEAM"
+      },
+      "player": {
+        "id": 1,
+        "name": "Same Name"
+      },
+      "type": {
+        "name": "Pressure"
+      },
+      "play_pattern": {
+        "name": "From Corner"
+      },
+      "location": [
+        60,
+        40
+      ]
+    },
+    {
+      "id": "wn",
+      "revision": 0,
+      "period": 1,
+      "index": 0,
+      "timestamp": "00:01:51.000",
+      "minute": 99,
+      "second": 59,
+      "possession": 11,
+      "team": {
+        "id": 101,
+        "name": "MISLEADING TEAM"
+      },
+      "player": {
+        "id": 1,
+        "name": "Same Name"
+      },
+      "type": {
+        "name": "Ball Recovery"
+      },
+      "play_pattern": {
+        "name": "Open Play"
+      },
+      "location": [
+        70.0001,
+        40
+      ]
+    },
+    {
+      "id": "foul",
+      "revision": 0,
+      "period": 1,
+      "index": 0,
+      "timestamp": "00:01:00.500",
+      "minute": 99,
+      "second": 59,
+      "possession": 6,
+      "team": {
+        "id": 101,
+        "name": "MISLEADING TEAM"
+      },
+      "player": {
+        "id": 1,
+        "name": "Same Name"
+      },
+      "type": {
+        "name": "Foul Won"
+      },
+      "play_pattern": {
+        "name": "Open Play"
+      },
+      "location": [
+        60,
+        40
+      ]
+    },
+    {
+      "id": "wm",
+      "revision": 0,
+      "period": 1,
+      "index": 0,
+      "timestamp": "00:01:41.000",
+      "minute": 99,
+      "second": 59,
+      "possession": 10,
+      "team": {
+        "id": 101,
+        "name": "MISLEADING TEAM"
+      },
+      "player": {
+        "id": 1,
+        "name": "Same Name"
+      },
+      "type": {
+        "name": "Ball Recovery"
+      },
+      "play_pattern": {
+        "name": "Open Play"
+      },
+      "location": [
+        60,
+        40
+      ],
+      "recovery_failure": true
+    },
+    {
+      "id": "pb",
+      "revision": 0,
+      "period": 1,
+      "index": 0,
+      "timestamp": "00:00:11.000",
+      "minute": 99,
+      "second": 59,
+      "possession": 1,
+      "team": {
+        "id": 101,
+        "name": "MISLEADING TEAM"
+      },
+      "player": {
+        "id": 1,
+        "name": "Same Name"
+      },
+      "type": {
+        "name": "Pressure"
+      },
+      "play_pattern": {
+        "name": "Open Play"
+      },
+      "location": [
+        15,
+        40
+      ]
+    },
+    {
+      "id": "ph",
+      "revision": 0,
+      "period": 1,
+      "index": 0,
+      "timestamp": "00:00:50.000",
+      "minute": 99,
+      "second": 59,
+      "possession": 5,
+      "team": {
+        "id": 101,
+        "name": "MISLEADING TEAM"
+      },
+      "player": {
+        "id": 1,
+        "name": "Same Name"
+      },
+      "type": {
+        "name": "Pressure"
+      },
+      "play_pattern": {
+        "name": "Open Play"
+      },
+      "location": [
+        60,
+        40
+      ]
+    },
+    {
+      "id": "wa",
+      "revision": 0,
+      "period": 1,
+      "index": 0,
+      "timestamp": "00:00:12.000",
+      "minute": 99,
+      "second": 59,
+      "possession": 1,
+      "team": {
+        "id": 101,
+        "name": "MISLEADING TEAM"
+      },
+      "player": {
+        "id": 1,
+        "name": "Same Name"
+      },
+      "type": {
+        "name": "Duel"
+      },
+      "play_pattern": {
+        "name": "Open Play"
+      },
+      "location": [
+        7,
+        40
+      ],
+      "outcome": {
+        "name": "Won"
+      }
+    },
+    {
+      "id": "wi",
+      "revision": 0,
+      "period": 1,
+      "index": 0,
+      "timestamp": "00:01:01.000",
+      "minute": 99,
+      "second": 59,
+      "possession": 6,
+      "team": {
+        "id": 101,
+        "name": "MISLEADING TEAM"
+      },
+      "player": {
+        "id": 1,
+        "name": "Same Name"
+      },
+      "type": {
+        "name": "Ball Recovery"
+      },
+      "play_pattern": {
+        "name": "Open Play"
+      },
+      "location": [
+        60,
+        40
+      ]
+    },
+    {
+      "id": "pn",
+      "revision": 0,
+      "period": 1,
+      "index": 0,
+      "timestamp": "00:01:50.000",
+      "minute": 99,
+      "second": 59,
+      "possession": 11,
+      "team": {
+        "id": 101,
+        "name": "MISLEADING TEAM"
+      },
+      "player": {
+        "id": 1,
+        "name": "Same Name"
+      },
+      "type": {
+        "name": "Pressure"
+      },
+      "play_pattern": {
+        "name": "Open Play"
+      },
+      "location": [
+        60,
+        40
+      ]
+    },
+    {
+      "id": "pc",
+      "revision": 0,
+      "period": 1,
+      "index": 0,
+      "timestamp": "00:00:20.000",
+      "minute": 99,
+      "second": 59,
+      "possession": 2,
+      "team": {
+        "id": 101,
+        "name": "MISLEADING TEAM"
+      },
+      "player": {
+        "id": 1,
+        "name": "Same Name"
+      },
+      "type": {
+        "name": "Pressure"
+      },
+      "play_pattern": {
+        "name": "Open Play"
+      },
+      "location": [
+        50,
+        40
+      ]
+    },
+    {
+      "id": "pm",
+      "revision": 0,
+      "period": 1,
+      "index": 0,
+      "timestamp": "00:01:40.000",
+      "minute": 99,
+      "second": 59,
+      "possession": 10,
+      "team": {
+        "id": 101,
+        "name": "MISLEADING TEAM"
+      },
+      "player": {
+        "id": 1,
+        "name": "Same Name"
+      },
+      "type": {
+        "name": "Pressure"
+      },
+      "play_pattern": {
+        "name": "Open Play"
+      },
+      "location": [
+        60,
+        40
+      ]
+    },
+    {
+      "id": "pe",
+      "revision": 0,
+      "period": 1,
+      "index": 0,
+      "timestamp": "00:00:30.000",
+      "minute": 99,
+      "second": 59,
+      "possession": 3,
+      "team": {
+        "id": 101,
+        "name": "MISLEADING TEAM"
+      },
+      "player": {
+        "id": 1,
+        "name": "Same Name"
+      },
+      "type": {
+        "name": "Pressure"
+      },
+      "play_pattern": {
+        "name": "Open Play"
+      },
+      "location": [
+        50,
+        40
+      ]
+    },
+    {
+      "id": "pf",
+      "revision": 0,
+      "period": 1,
+      "index": 1,
+      "timestamp": "00:00:30.000",
+      "minute": 99,
+      "second": 59,
+      "possession": 3,
+      "team": {
+        "id": 101,
+        "name": "MISLEADING TEAM"
+      },
+      "player": {
+        "id": 1,
+        "name": "Same Name"
+      },
+      "type": {
+        "name": "Pressure"
+      },
+      "play_pattern": {
+        "name": "Open Play"
+      },
+      "location": [
+        50,
+        40
+      ]
+    },
+    {
+      "id": "pl",
+      "revision": 0,
+      "period": 1,
+      "index": 0,
+      "timestamp": "00:01:30.000",
+      "minute": 99,
+      "second": 59,
+      "possession": 9,
+      "team": {
+        "id": 202,
+        "name": "MISLEADING TEAM"
+      },
+      "player": {
+        "id": 1,
+        "name": "Same Name"
+      },
+      "type": {
+        "name": "Pressure"
+      },
+      "play_pattern": {
+        "name": "Open Play"
+      },
+      "location": [
+        60,
+        40
+      ]
+    },
+    {
+      "id": "pa",
+      "revision": 0,
+      "period": 1,
+      "index": 0,
+      "timestamp": "00:00:10.000",
+      "minute": 99,
+      "second": 59,
+      "possession": 1,
+      "team": {
+        "id": 101,
+        "name": "MISLEADING TEAM"
+      },
+      "player": {
+        "id": 1,
+        "name": "Same Name"
+      },
+      "type": {
+        "name": "Pressure"
+      },
+      "play_pattern": {
+        "name": "Open Play"
+      },
+      "location": [
+        0,
+        40
+      ]
+    },
+    {
+      "id": "wb",
+      "revision": 0,
+      "period": 1,
+      "index": 0,
+      "timestamp": "00:00:13.000",
+      "minute": 99,
+      "second": 59,
+      "possession": 1,
+      "team": {
+        "id": 101,
+        "name": "MISLEADING TEAM"
+      },
+      "player": {
+        "id": 1,
+        "name": "Same Name"
+      },
+      "type": {
+        "name": "Interception"
+      },
+      "play_pattern": {
+        "name": "Open Play"
+      },
+      "location": [
+        0,
+        40
+      ],
+      "outcome": {
+        "name": "Won"
+      }
+    },
+    {
+      "id": "wj",
+      "revision": 0,
+      "period": 1,
+      "index": 0,
+      "timestamp": "00:01:11.000",
+      "minute": 99,
+      "second": 59,
+      "possession": 7,
+      "team": {
+        "id": 101,
+        "name": "MISLEADING TEAM"
+      },
+      "player": {
+        "id": 1,
+        "name": "Same Name"
+      },
+      "type": {
+        "name": "Ball Recovery"
+      },
+      "play_pattern": {
+        "name": "Open Play"
+      },
+      "location": [
+        60,
+        40
+      ]
+    }
+  ],
+  "match": {
+    "teams": [
+      {
+        "id": 101,
+        "name": "Amber, FC",
+        "attack_sign": {
+          "1": 1,
+          "2": -1,
+          "3": -1
+        }
+      },
+      {
+        "id": 202,
+        "name": "Cobalt Ω",
+        "attack_sign": {
+          "1": -1,
+          "2": 1,
+          "3": 1
+        }
+      }
+    ],
+    "periods": [
+      {
+        "id": 1,
+        "offset_ms": 0,
+        "duration_ms": 2700000
+      },
+      {
+        "id": 2,
+        "offset_ms": 2700000,
+        "duration_ms": 2700000
+      },
+      {
+        "id": 3,
+        "offset_ms": 5400000,
+        "duration_ms": 900000
+      }
+    ]
+  },
+  "lineups": null,
+  "expected": [
+    [
+      "pa",
+      "wb",
+      101,
+      3,
+      0
+    ],
+    [
+      "pb",
+      "wa",
+      101,
+      1,
+      8
+    ],
+    [
+      "pd",
+      "wc",
+      101,
+      1,
+      0
+    ],
+    [
+      "pe",
+      "we",
+      101,
+      5,
+      10
+    ],
+    [
+      "pf",
+      "wf",
+      101,
+      5,
+      0
+    ]
+  ]
+}

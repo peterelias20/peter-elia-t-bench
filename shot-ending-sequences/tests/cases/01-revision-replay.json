@@ -1,0 +1,2357 @@
+{
+  "name": "revision-replay",
+  "header": [
+    "shot_id",
+    "origin_id",
+    "chain_length",
+    "event_ids",
+    "origin_x",
+    "origin_y",
+    "duration_seconds",
+    "distance_forward"
+  ],
+  "events": [
+    {
+      "id": "a7",
+      "revision": 1,
+      "period": 1,
+      "index": 0,
+      "timestamp": "00:00:17.000",
+      "minute": 99,
+      "second": 59,
+      "possession": 1,
+      "team": {
+        "id": 101,
+        "name": "MISLEADING TEAM"
+      },
+      "player": {
+        "id": 1,
+        "name": "Same Name"
+      },
+      "type": {
+        "name": "Shot"
+      },
+      "play_pattern": {
+        "name": "Open Play"
+      },
+      "location": [
+        0,
+        0
+      ],
+      "end_location": [
+        120,
+        80
+      ]
+    },
+    {
+      "id": "a1",
+      "revision": 1,
+      "period": 1,
+      "index": 0,
+      "timestamp": "00:00:11.000",
+      "minute": 99,
+      "second": 59,
+      "possession": 1,
+      "team": {
+        "id": 101,
+        "name": "MISLEADING TEAM"
+      },
+      "player": {
+        "id": 1,
+        "name": "Same Name"
+      },
+      "type": {
+        "name": "Carry"
+      },
+      "play_pattern": {
+        "name": "Open Play"
+      },
+      "location": [
+        0,
+        0
+      ],
+      "end_location": [
+        120,
+        80
+      ]
+    },
+    {
+      "id": "f3",
+      "revision": 1,
+      "period": 1,
+      "index": 0,
+      "timestamp": "00:01:22.000",
+      "minute": 99,
+      "second": 59,
+      "possession": 6,
+      "team": {
+        "id": 101,
+        "name": "MISLEADING TEAM"
+      },
+      "player": {
+        "id": 1,
+        "name": "Same Name"
+      },
+      "type": {
+        "name": "Carry"
+      },
+      "play_pattern": {
+        "name": "Open Play"
+      },
+      "location": [
+        0,
+        0
+      ],
+      "end_location": [
+        120,
+        80
+      ]
+    },
+    {
+      "id": "pressure",
+      "revision": 1,
+      "period": 1,
+      "index": 0,
+      "timestamp": "00:00:16.500",
+      "minute": 99,
+      "second": 59,
+      "possession": 1,
+      "team": {
+        "id": 202,
+        "name": "MISLEADING TEAM"
+      },
+      "player": {
+        "id": 1,
+        "name": "Same Name"
+      },
+      "type": {
+        "name": "Pressure"
+      },
+      "play_pattern": {
+        "name": "Open Play"
+      },
+      "location": [
+        0,
+        0
+      ],
+      "end_location": [
+        120,
+        80
+      ]
+    },
+    {
+      "id": "invalidshot",
+      "revision": 1,
+      "period": 2,
+      "index": 0,
+      "timestamp": "00:00:02.000",
+      "minute": 99,
+      "second": 59,
+      "possession": 8,
+      "team": {
+        "id": 101,
+        "name": "MISLEADING TEAM"
+      },
+      "player": {
+        "id": 1,
+        "name": "Same Name"
+      },
+      "type": {
+        "name": "Shot"
+      },
+      "play_pattern": {
+        "name": "Open Play"
+      },
+      "location": [
+        0,
+        0
+      ],
+      "end_location": [
+        120,
+        80
+      ]
+    },
+    {
+      "id": "g3",
+      "revision": 1,
+      "period": 1,
+      "index": 0,
+      "timestamp": "00:01:42.000",
+      "minute": 99,
+      "second": 59,
+      "possession": 7,
+      "team": {
+        "id": 101,
+        "name": "MISLEADING TEAM"
+      },
+      "player": {
+        "id": 1,
+        "name": "Same Name"
+      },
+      "type": {
+        "name": "Carry"
+      },
+      "play_pattern": {
+        "name": "Open Play"
+      },
+      "location": [
+        0,
+        0
+      ],
+      "end_location": [
+        120,
+        80
+      ]
+    },
+    {
+      "id": "a4",
+      "revision": 1,
+      "period": 1,
+      "index": 0,
+      "timestamp": "00:00:14.000",
+      "minute": 99,
+      "second": 59,
+      "possession": 1,
+      "team": {
+        "id": 101,
+        "name": "MISLEADING TEAM"
+      },
+      "player": {
+        "id": 1,
+        "name": "Same Name"
+      },
+      "type": {
+        "name": "Carry"
+      },
+      "play_pattern": {
+        "name": "Open Play"
+      },
+      "location": [
+        0,
+        0
+      ],
+      "end_location": [
+        120,
+        80
+      ]
+    },
+    {
+      "id": "h0",
+      "revision": 1,
+      "period": 2,
+      "index": 0,
+      "timestamp": "00:00:01.000",
+      "minute": 99,
+      "second": 59,
+      "possession": 8,
+      "team": {
+        "id": 101,
+        "name": "MISLEADING TEAM"
+      },
+      "player": {
+        "id": 1,
+        "name": "Same Name"
+      },
+      "type": {
+        "name": "Carry"
+      },
+      "play_pattern": {
+        "name": "Open Play"
+      },
+      "location": [
+        0,
+        0
+      ],
+      "end_location": [
+        120,
+        80
+      ]
+    },
+    {
+      "id": "a3",
+      "revision": 1,
+      "period": 1,
+      "index": 0,
+      "timestamp": "00:00:13.000",
+      "minute": 99,
+      "second": 59,
+      "possession": 1,
+      "team": {
+        "id": 101,
+        "name": "MISLEADING TEAM"
+      },
+      "player": {
+        "id": 1,
+        "name": "Same Name"
+      },
+      "type": {
+        "name": "Carry"
+      },
+      "play_pattern": {
+        "name": "Open Play"
+      },
+      "location": [
+        0,
+        0
+      ],
+      "end_location": [
+        120,
+        80
+      ]
+    },
+    {
+      "id": "f1",
+      "revision": 1,
+      "period": 1,
+      "index": 0,
+      "timestamp": "00:01:14.000",
+      "minute": 99,
+      "second": 59,
+      "possession": 6,
+      "team": {
+        "id": 101,
+        "name": "MISLEADING TEAM"
+      },
+      "player": {
+        "id": 1,
+        "name": "Same Name"
+      },
+      "type": {
+        "name": "Carry"
+      },
+      "play_pattern": {
+        "name": "Open Play"
+      },
+      "location": [
+        0,
+        0
+      ],
+      "end_location": [
+        120,
+        80
+      ]
+    },
+    {
+      "id": "e0",
+      "revision": 1,
+      "period": 1,
+      "index": 0,
+      "timestamp": "00:01:00.000",
+      "minute": 99,
+      "second": 59,
+      "possession": 5,
+      "team": {
+        "id": 101,
+        "name": "MISLEADING TEAM"
+      },
+      "player": {
+        "id": 1,
+        "name": "Same Name"
+      },
+      "type": {
+        "name": "Carry"
+      },
+      "play_pattern": {
+        "name": "Open Play"
+      },
+      "location": [
+        0,
+        0
+      ],
+      "end_location": [
+        120,
+        80
+      ]
+    },
+    {
+      "id": "a2",
+      "revision": 1,
+      "period": 1,
+      "index": 0,
+      "timestamp": "00:00:12.000",
+      "minute": 99,
+      "second": 59,
+      "possession": 1,
+      "team": {
+        "id": 101,
+        "name": "MISLEADING TEAM"
+      },
+      "player": {
+        "id": 1,
+        "name": "Same Name"
+      },
+      "type": {
+        "name": "Carry"
+      },
+      "play_pattern": {
+        "name": "Open Play"
+      },
+      "location": [
+        0,
+        0
+      ],
+      "end_location": [
+        120,
+        80
+      ]
+    },
+    {
+      "id": "e1",
+      "revision": 1,
+      "period": 1,
+      "index": 0,
+      "timestamp": "00:01:01.000",
+      "minute": 99,
+      "second": 59,
+      "possession": 5,
+      "team": {
+        "id": 202,
+        "name": "MISLEADING TEAM"
+      },
+      "player": {
+        "id": 1,
+        "name": "Same Name"
+      },
+      "type": {
+        "name": "Carry"
+      },
+      "play_pattern": {
+        "name": "Open Play"
+      },
+      "location": [
+        0,
+        0
+      ],
+      "end_location": [
+        120,
+        80
+      ]
+    },
+    {
+      "id": "c1",
+      "revision": 1,
+      "period": 1,
+      "index": 0,
+      "timestamp": "00:00:41.000",
+      "minute": 99,
+      "second": 59,
+      "possession": 3,
+      "team": {
+        "id": 101,
+        "name": "MISLEADING TEAM"
+      },
+      "player": {
+        "id": 1,
+        "name": "Same Name"
+      },
+      "type": {
+        "name": "Shot"
+      },
+      "play_pattern": {
+        "name": "Open Play"
+      },
+      "location": [
+        0,
+        0
+      ],
+      "end_location": [
+        120,
+        80
+      ]
+    },
+    {
+      "id": "h1",
+      "revision": 1,
+      "period": 2,
+      "index": 1,
+      "timestamp": "00:00:01.000",
+      "minute": 99,
+      "second": 59,
+      "possession": 8,
+      "team": {
+        "id": 101,
+        "name": "MISLEADING TEAM"
+      },
+      "player": {
+        "id": 1,
+        "name": "Same Name"
+      },
+      "type": {
+        "name": "Shot"
+      },
+      "play_pattern": {
+        "name": "Open Play"
+      },
+      "location": [
+        0,
+        0
+      ],
+      "end_location": [
+        120,
+        80
+      ]
+    },
+    {
+      "id": "a0",
+      "revision": 1,
+      "period": 1,
+      "index": 0,
+      "timestamp": "00:00:10.000",
+      "minute": 99,
+      "second": 59,
+      "possession": 1,
+      "team": {
+        "id": 101,
+        "name": "MISLEADING TEAM"
+      },
+      "player": {
+        "id": 1,
+        "name": "Same Name"
+      },
+      "type": {
+        "name": "Carry"
+      },
+      "play_pattern": {
+        "name": "Open Play"
+      },
+      "location": [
+        0,
+        0
+      ],
+      "end_location": [
+        120,
+        80
+      ]
+    },
+    {
+      "id": "g0",
+      "revision": 1,
+      "period": 1,
+      "index": 0,
+      "timestamp": "00:01:30.000",
+      "minute": 99,
+      "second": 59,
+      "possession": 7,
+      "team": {
+        "id": 101,
+        "name": "MISLEADING TEAM"
+      },
+      "player": {
+        "id": 1,
+        "name": "Same Name"
+      },
+      "type": {
+        "name": "Carry"
+      },
+      "play_pattern": {
+        "name": "Open Play"
+      },
+      "location": [
+        0,
+        0
+      ],
+      "end_location": [
+        120,
+        80
+      ]
+    },
+    {
+      "id": "a6",
+      "revision": 1,
+      "period": 1,
+      "index": 0,
+      "timestamp": "00:00:16.000",
+      "minute": 99,
+      "second": 59,
+      "possession": 1,
+      "team": {
+        "id": 101,
+        "name": "MISLEADING TEAM"
+      },
+      "player": {
+        "id": 1,
+        "name": "Same Name"
+      },
+      "type": {
+        "name": "Carry"
+      },
+      "play_pattern": {
+        "name": "Open Play"
+      },
+      "location": [
+        0,
+        0
+      ],
+      "end_location": [
+        120,
+        80
+      ]
+    },
+    {
+      "id": "f4",
+      "revision": 1,
+      "period": 1,
+      "index": 0,
+      "timestamp": "00:01:25.000",
+      "minute": 99,
+      "second": 59,
+      "possession": 6,
+      "team": {
+        "id": 101,
+        "name": "MISLEADING TEAM"
+      },
+      "player": {
+        "id": 1,
+        "name": "Same Name"
+      },
+      "type": {
+        "name": "Shot"
+      },
+      "play_pattern": {
+        "name": "Open Play"
+      },
+      "location": [
+        0,
+        0
+      ],
+      "end_location": [
+        120,
+        80
+      ]
+    },
+    {
+      "id": "g4",
+      "revision": 1,
+      "period": 1,
+      "index": 0,
+      "timestamp": "00:01:45.001",
+      "minute": 99,
+      "second": 59,
+      "possession": 7,
+      "team": {
+        "id": 101,
+        "name": "MISLEADING TEAM"
+      },
+      "player": {
+        "id": 1,
+        "name": "Same Name"
+      },
+      "type": {
+        "name": "Shot"
+      },
+      "play_pattern": {
+        "name": "Open Play"
+      },
+      "location": [
+        0,
+        0
+      ],
+      "end_location": [
+        120,
+        80
+      ]
+    },
+    {
+      "id": "b0",
+      "revision": 1,
+      "period": 1,
+      "index": 0,
+      "timestamp": "00:00:30.000",
+      "minute": 99,
+      "second": 59,
+      "possession": 2,
+      "team": {
+        "id": 101,
+        "name": "MISLEADING TEAM"
+      },
+      "player": {
+        "id": 1,
+        "name": "Same Name"
+      },
+      "type": {
+        "name": "Carry"
+      },
+      "play_pattern": {
+        "name": "Open Play"
+      },
+      "location": [
+        0,
+        0
+      ],
+      "end_location": [
+        120,
+        80
+      ]
+    },
+    {
+      "id": "f2",
+      "revision": 1,
+      "period": 1,
+      "index": 0,
+      "timestamp": "00:01:18.000",
+      "minute": 99,
+      "second": 59,
+      "possession": 6,
+      "team": {
+        "id": 101,
+        "name": "MISLEADING TEAM"
+      },
+      "player": {
+        "id": 1,
+        "name": "Same Name"
+      },
+      "type": {
+        "name": "Carry"
+      },
+      "play_pattern": {
+        "name": "Open Play"
+      },
+      "location": [
+        0,
+        0
+      ],
+      "end_location": [
+        120,
+        80
+      ]
+    },
+    {
+      "id": "e2",
+      "revision": 1,
+      "period": 1,
+      "index": 0,
+      "timestamp": "00:01:02.000",
+      "minute": 99,
+      "second": 59,
+      "possession": 5,
+      "team": {
+        "id": 101,
+        "name": "MISLEADING TEAM"
+      },
+      "player": {
+        "id": 1,
+        "name": "Same Name"
+      },
+      "type": {
+        "name": "Shot"
+      },
+      "play_pattern": {
+        "name": "Open Play"
+      },
+      "location": [
+        0,
+        0
+      ],
+      "end_location": [
+        120,
+        80
+      ]
+    },
+    {
+      "id": "c2",
+      "revision": 1,
+      "period": 1,
+      "index": 0,
+      "timestamp": "00:00:42.000",
+      "minute": 99,
+      "second": 59,
+      "possession": 3,
+      "team": {
+        "id": 101,
+        "name": "MISLEADING TEAM"
+      },
+      "player": {
+        "id": 1,
+        "name": "Same Name"
+      },
+      "type": {
+        "name": "Shot"
+      },
+      "play_pattern": {
+        "name": "Open Play"
+      },
+      "location": [
+        0,
+        0
+      ],
+      "end_location": [
+        120,
+        80
+      ]
+    },
+    {
+      "id": "b1",
+      "revision": 1,
+      "period": 1,
+      "index": 0,
+      "timestamp": "00:00:34.000",
+      "minute": 99,
+      "second": 59,
+      "possession": 2,
+      "team": {
+        "id": 101,
+        "name": "MISLEADING TEAM"
+      },
+      "player": {
+        "id": 1,
+        "name": "Same Name"
+      },
+      "type": {
+        "name": "Carry"
+      },
+      "play_pattern": {
+        "name": "Open Play"
+      },
+      "location": [
+        0,
+        0
+      ],
+      "end_location": [
+        120,
+        80
+      ]
+    },
+    {
+      "id": "d0",
+      "revision": 1,
+      "period": 1,
+      "index": 0,
+      "timestamp": "00:00:50.000",
+      "minute": 99,
+      "second": 59,
+      "possession": 4,
+      "team": {
+        "id": 101,
+        "name": "MISLEADING TEAM"
+      },
+      "player": {
+        "id": 1,
+        "name": "Same Name"
+      },
+      "type": {
+        "name": "Carry"
+      },
+      "play_pattern": {
+        "name": "Open Play"
+      },
+      "location": [
+        0,
+        0
+      ],
+      "end_location": [
+        120,
+        80
+      ]
+    },
+    {
+      "id": "f0",
+      "revision": 1,
+      "period": 1,
+      "index": 0,
+      "timestamp": "00:01:10.000",
+      "minute": 99,
+      "second": 59,
+      "possession": 6,
+      "team": {
+        "id": 101,
+        "name": "MISLEADING TEAM"
+      },
+      "player": {
+        "id": 1,
+        "name": "Same Name"
+      },
+      "type": {
+        "name": "Carry"
+      },
+      "play_pattern": {
+        "name": "Open Play"
+      },
+      "location": [
+        0,
+        0
+      ],
+      "end_location": [
+        120,
+        80
+      ]
+    },
+    {
+      "id": "c0",
+      "revision": 1,
+      "period": 1,
+      "index": 0,
+      "timestamp": "00:00:40.000",
+      "minute": 99,
+      "second": 59,
+      "possession": 3,
+      "team": {
+        "id": 101,
+        "name": "MISLEADING TEAM"
+      },
+      "player": {
+        "id": 1,
+        "name": "Same Name"
+      },
+      "type": {
+        "name": "Carry"
+      },
+      "play_pattern": {
+        "name": "Open Play"
+      },
+      "location": [
+        0,
+        0
+      ],
+      "end_location": [
+        120,
+        80
+      ]
+    },
+    {
+      "id": "g1",
+      "revision": 1,
+      "period": 1,
+      "index": 0,
+      "timestamp": "00:01:34.000",
+      "minute": 99,
+      "second": 59,
+      "possession": 7,
+      "team": {
+        "id": 101,
+        "name": "MISLEADING TEAM"
+      },
+      "player": {
+        "id": 1,
+        "name": "Same Name"
+      },
+      "type": {
+        "name": "Carry"
+      },
+      "play_pattern": {
+        "name": "Open Play"
+      },
+      "location": [
+        0,
+        0
+      ],
+      "end_location": [
+        120,
+        80
+      ]
+    },
+    {
+      "id": "d1",
+      "revision": 1,
+      "period": 1,
+      "index": 0,
+      "timestamp": "00:00:51.000",
+      "minute": 99,
+      "second": 59,
+      "possession": 4,
+      "team": {
+        "id": 101,
+        "name": "MISLEADING TEAM"
+      },
+      "player": {
+        "id": 1,
+        "name": "Same Name"
+      },
+      "type": {
+        "name": "Shot"
+      },
+      "play_pattern": {
+        "name": "From Corner"
+      },
+      "location": [
+        0,
+        0
+      ],
+      "end_location": [
+        120,
+        80
+      ]
+    },
+    {
+      "id": "b2",
+      "revision": 1,
+      "period": 1,
+      "index": 0,
+      "timestamp": "00:00:38.001",
+      "minute": 99,
+      "second": 59,
+      "possession": 2,
+      "team": {
+        "id": 101,
+        "name": "MISLEADING TEAM"
+      },
+      "player": {
+        "id": 1,
+        "name": "Same Name"
+      },
+      "type": {
+        "name": "Shot"
+      },
+      "play_pattern": {
+        "name": "Open Play"
+      },
+      "location": [
+        0,
+        0
+      ],
+      "end_location": [
+        120,
+        80
+      ]
+    },
+    {
+      "id": "a5",
+      "revision": 1,
+      "period": 1,
+      "index": 0,
+      "timestamp": "00:00:15.000",
+      "minute": 99,
+      "second": 59,
+      "possession": 1,
+      "team": {
+        "id": 101,
+        "name": "MISLEADING TEAM"
+      },
+      "player": {
+        "id": 1,
+        "name": "Same Name"
+      },
+      "type": {
+        "name": "Carry"
+      },
+      "play_pattern": {
+        "name": "Open Play"
+      },
+      "location": [
+        0,
+        0
+      ],
+      "end_location": [
+        120,
+        80
+      ]
+    },
+    {
+      "id": "g2",
+      "revision": 1,
+      "period": 1,
+      "index": 0,
+      "timestamp": "00:01:38.000",
+      "minute": 99,
+      "second": 59,
+      "possession": 7,
+      "team": {
+        "id": 101,
+        "name": "MISLEADING TEAM"
+      },
+      "player": {
+        "id": 1,
+        "name": "Same Name"
+      },
+      "type": {
+        "name": "Carry"
+      },
+      "play_pattern": {
+        "name": "Open Play"
+      },
+      "location": [
+        0,
+        0
+      ],
+      "end_location": [
+        120,
+        80
+      ]
+    },
+    {
+      "id": "g2",
+      "revision": 10,
+      "period": 1,
+      "index": 0,
+      "timestamp": "00:01:38.000",
+      "minute": 99,
+      "second": 59,
+      "possession": 7,
+      "team": {
+        "id": 101,
+        "name": "MISLEADING TEAM"
+      },
+      "player": {
+        "id": 1,
+        "name": "Same Name"
+      },
+      "type": {
+        "name": "Carry"
+      },
+      "play_pattern": {
+        "name": "Open Play"
+      },
+      "location": [
+        40,
+        40
+      ],
+      "end_location": [
+        45,
+        40
+      ]
+    },
+    {
+      "id": "a5",
+      "revision": 10,
+      "period": 1,
+      "index": 0,
+      "timestamp": "00:00:15.000",
+      "minute": 99,
+      "second": 59,
+      "possession": 1,
+      "team": {
+        "id": 101,
+        "name": "MISLEADING TEAM"
+      },
+      "player": {
+        "id": 1,
+        "name": "Same Name"
+      },
+      "type": {
+        "name": "Carry"
+      },
+      "play_pattern": {
+        "name": "Open Play"
+      },
+      "location": [
+        55,
+        40
+      ],
+      "end_location": [
+        60,
+        40
+      ]
+    },
+    {
+      "id": "b2",
+      "revision": 10,
+      "period": 1,
+      "index": 0,
+      "timestamp": "00:00:38.001",
+      "minute": 99,
+      "second": 59,
+      "possession": 2,
+      "team": {
+        "id": 101,
+        "name": "MISLEADING TEAM"
+      },
+      "player": {
+        "id": 1,
+        "name": "Same Name"
+      },
+      "type": {
+        "name": "Shot"
+      },
+      "play_pattern": {
+        "name": "Open Play"
+      },
+      "location": [
+        60,
+        40
+      ]
+    },
+    {
+      "id": "d1",
+      "revision": 10,
+      "period": 1,
+      "index": 0,
+      "timestamp": "00:00:51.000",
+      "minute": 99,
+      "second": 59,
+      "possession": 4,
+      "team": {
+        "id": 101,
+        "name": "MISLEADING TEAM"
+      },
+      "player": {
+        "id": 1,
+        "name": "Same Name"
+      },
+      "type": {
+        "name": "Shot"
+      },
+      "play_pattern": {
+        "name": "From Corner"
+      },
+      "location": [
+        50,
+        40
+      ]
+    },
+    {
+      "id": "g1",
+      "revision": 10,
+      "period": 1,
+      "index": 0,
+      "timestamp": "00:01:34.000",
+      "minute": 99,
+      "second": 59,
+      "possession": 7,
+      "team": {
+        "id": 101,
+        "name": "MISLEADING TEAM"
+      },
+      "player": {
+        "id": 1,
+        "name": "Same Name"
+      },
+      "type": {
+        "name": "Carry"
+      },
+      "play_pattern": {
+        "name": "Open Play"
+      },
+      "location": [
+        35,
+        40
+      ],
+      "end_location": [
+        40,
+        40
+      ]
+    },
+    {
+      "id": "c0",
+      "revision": 10,
+      "period": 1,
+      "index": 0,
+      "timestamp": "00:00:40.000",
+      "minute": 99,
+      "second": 59,
+      "possession": 3,
+      "team": {
+        "id": 101,
+        "name": "MISLEADING TEAM"
+      },
+      "player": {
+        "id": 1,
+        "name": "Same Name"
+      },
+      "type": {
+        "name": "Carry"
+      },
+      "play_pattern": {
+        "name": "Open Play"
+      },
+      "location": [
+        30,
+        40
+      ],
+      "end_location": [
+        50,
+        40
+      ]
+    },
+    {
+      "id": "f0",
+      "revision": 10,
+      "period": 1,
+      "index": 0,
+      "timestamp": "00:01:10.000",
+      "minute": 99,
+      "second": 59,
+      "possession": 6,
+      "team": {
+        "id": 101,
+        "name": "MISLEADING TEAM"
+      },
+      "player": {
+        "id": 1,
+        "name": "Same Name"
+      },
+      "type": {
+        "name": "Carry"
+      },
+      "play_pattern": {
+        "name": "Open Play"
+      },
+      "location": [
+        30,
+        40
+      ],
+      "end_location": [
+        35,
+        40
+      ]
+    },
+    {
+      "id": "d0",
+      "revision": 10,
+      "period": 1,
+      "index": 0,
+      "timestamp": "00:00:50.000",
+      "minute": 99,
+      "second": 59,
+      "possession": 4,
+      "team": {
+        "id": 101,
+        "name": "MISLEADING TEAM"
+      },
+      "player": {
+        "id": 1,
+        "name": "Same Name"
+      },
+      "type": {
+        "name": "Carry"
+      },
+      "play_pattern": {
+        "name": "Open Play"
+      },
+      "location": [
+        30,
+        40
+      ],
+      "end_location": [
+        50,
+        40
+      ]
+    },
+    {
+      "id": "b1",
+      "revision": 10,
+      "period": 1,
+      "index": 0,
+      "timestamp": "00:00:34.000",
+      "minute": 99,
+      "second": 59,
+      "possession": 2,
+      "team": {
+        "id": 101,
+        "name": "MISLEADING TEAM"
+      },
+      "player": {
+        "id": 1,
+        "name": "Same Name"
+      },
+      "type": {
+        "name": "Carry"
+      },
+      "play_pattern": {
+        "name": "Open Play"
+      },
+      "location": [
+        50,
+        40
+      ],
+      "end_location": [
+        60,
+        40
+      ]
+    },
+    {
+      "id": "c2",
+      "revision": 10,
+      "period": 1,
+      "index": 0,
+      "timestamp": "00:00:42.000",
+      "minute": 99,
+      "second": 59,
+      "possession": 3,
+      "team": {
+        "id": 101,
+        "name": "MISLEADING TEAM"
+      },
+      "player": {
+        "id": 1,
+        "name": "Same Name"
+      },
+      "type": {
+        "name": "Shot"
+      },
+      "play_pattern": {
+        "name": "Open Play"
+      },
+      "location": [
+        55,
+        40
+      ]
+    },
+    {
+      "id": "e2",
+      "revision": 10,
+      "period": 1,
+      "index": 0,
+      "timestamp": "00:01:02.000",
+      "minute": 99,
+      "second": 59,
+      "possession": 5,
+      "team": {
+        "id": 101,
+        "name": "MISLEADING TEAM"
+      },
+      "player": {
+        "id": 1,
+        "name": "Same Name"
+      },
+      "type": {
+        "name": "Shot"
+      },
+      "play_pattern": {
+        "name": "Open Play"
+      },
+      "location": [
+        60,
+        40
+      ]
+    },
+    {
+      "id": "f2",
+      "revision": 10,
+      "period": 1,
+      "index": 0,
+      "timestamp": "00:01:18.000",
+      "minute": 99,
+      "second": 59,
+      "possession": 6,
+      "team": {
+        "id": 101,
+        "name": "MISLEADING TEAM"
+      },
+      "player": {
+        "id": 1,
+        "name": "Same Name"
+      },
+      "type": {
+        "name": "Carry"
+      },
+      "play_pattern": {
+        "name": "Open Play"
+      },
+      "location": [
+        40,
+        40
+      ],
+      "end_location": [
+        45,
+        40
+      ]
+    },
+    {
+      "id": "b0",
+      "revision": 10,
+      "period": 1,
+      "index": 0,
+      "timestamp": "00:00:30.000",
+      "minute": 99,
+      "second": 59,
+      "possession": 2,
+      "team": {
+        "id": 101,
+        "name": "MISLEADING TEAM"
+      },
+      "player": {
+        "id": 1,
+        "name": "Same Name"
+      },
+      "type": {
+        "name": "Carry"
+      },
+      "play_pattern": {
+        "name": "Open Play"
+      },
+      "location": [
+        30,
+        40
+      ],
+      "end_location": [
+        50,
+        40
+      ]
+    },
+    {
+      "id": "g4",
+      "revision": 10,
+      "period": 1,
+      "index": 0,
+      "timestamp": "00:01:45.001",
+      "minute": 99,
+      "second": 59,
+      "possession": 7,
+      "team": {
+        "id": 101,
+        "name": "MISLEADING TEAM"
+      },
+      "player": {
+        "id": 1,
+        "name": "Same Name"
+      },
+      "type": {
+        "name": "Shot"
+      },
+      "play_pattern": {
+        "name": "Open Play"
+      },
+      "location": [
+        50,
+        40
+      ],
+      "end_location": [
+        55,
+        40
+      ]
+    },
+    {
+      "id": "f4",
+      "revision": 10,
+      "period": 1,
+      "index": 0,
+      "timestamp": "00:01:25.000",
+      "minute": 99,
+      "second": 59,
+      "possession": 6,
+      "team": {
+        "id": 101,
+        "name": "MISLEADING TEAM"
+      },
+      "player": {
+        "id": 1,
+        "name": "Same Name"
+      },
+      "type": {
+        "name": "Shot"
+      },
+      "play_pattern": {
+        "name": "Open Play"
+      },
+      "location": [
+        50,
+        40
+      ],
+      "end_location": [
+        55,
+        40
+      ]
+    },
+    {
+      "id": "a6",
+      "revision": 10,
+      "period": 1,
+      "index": 0,
+      "timestamp": "00:00:16.000",
+      "minute": 99,
+      "second": 59,
+      "possession": 1,
+      "team": {
+        "id": 101,
+        "name": "MISLEADING TEAM"
+      },
+      "player": {
+        "id": 1,
+        "name": "Same Name"
+      },
+      "type": {
+        "name": "Carry"
+      },
+      "play_pattern": {
+        "name": "Open Play"
+      },
+      "location": [
+        60,
+        40
+      ],
+      "end_location": [
+        65,
+        40
+      ]
+    },
+    {
+      "id": "g0",
+      "revision": 10,
+      "period": 1,
+      "index": 0,
+      "timestamp": "00:01:30.000",
+      "minute": 99,
+      "second": 59,
+      "possession": 7,
+      "team": {
+        "id": 101,
+        "name": "MISLEADING TEAM"
+      },
+      "player": {
+        "id": 1,
+        "name": "Same Name"
+      },
+      "type": {
+        "name": "Carry"
+      },
+      "play_pattern": {
+        "name": "Open Play"
+      },
+      "location": [
+        30,
+        40
+      ],
+      "end_location": [
+        35,
+        40
+      ]
+    },
+    {
+      "id": "a0",
+      "revision": 10,
+      "period": 1,
+      "index": 0,
+      "timestamp": "00:00:10.000",
+      "minute": 99,
+      "second": 59,
+      "possession": 1,
+      "team": {
+        "id": 101,
+        "name": "MISLEADING TEAM"
+      },
+      "player": {
+        "id": 1,
+        "name": "Same Name"
+      },
+      "type": {
+        "name": "Carry"
+      },
+      "play_pattern": {
+        "name": "Open Play"
+      },
+      "location": [
+        30,
+        40
+      ],
+      "end_location": [
+        35,
+        40
+      ]
+    },
+    {
+      "id": "h1",
+      "revision": 10,
+      "period": 2,
+      "index": 1,
+      "timestamp": "00:00:01.000",
+      "minute": 99,
+      "second": 59,
+      "possession": 8,
+      "team": {
+        "id": 101,
+        "name": "MISLEADING TEAM"
+      },
+      "player": {
+        "id": 1,
+        "name": "Same Name"
+      },
+      "type": {
+        "name": "Shot"
+      },
+      "play_pattern": {
+        "name": "Open Play"
+      },
+      "location": [
+        70,
+        40
+      ]
+    },
+    {
+      "id": "c1",
+      "revision": 10,
+      "period": 1,
+      "index": 0,
+      "timestamp": "00:00:41.000",
+      "minute": 99,
+      "second": 59,
+      "possession": 3,
+      "team": {
+        "id": 101,
+        "name": "MISLEADING TEAM"
+      },
+      "player": {
+        "id": 1,
+        "name": "Same Name"
+      },
+      "type": {
+        "name": "Shot"
+      },
+      "play_pattern": {
+        "name": "Open Play"
+      },
+      "location": [
+        50,
+        40
+      ]
+    },
+    {
+      "id": "e1",
+      "revision": 10,
+      "period": 1,
+      "index": 0,
+      "timestamp": "00:01:01.000",
+      "minute": 99,
+      "second": 59,
+      "possession": 5,
+      "team": {
+        "id": 202,
+        "name": "MISLEADING TEAM"
+      },
+      "player": {
+        "id": 1,
+        "name": "Same Name"
+      },
+      "type": {
+        "name": "Carry"
+      },
+      "play_pattern": {
+        "name": "Open Play"
+      },
+      "location": [
+        50,
+        40
+      ],
+      "end_location": [
+        60,
+        40
+      ]
+    },
+    {
+      "id": "a2",
+      "revision": 10,
+      "period": 1,
+      "index": 0,
+      "timestamp": "00:00:12.000",
+      "minute": 99,
+      "second": 59,
+      "possession": 1,
+      "team": {
+        "id": 101,
+        "name": "MISLEADING TEAM"
+      },
+      "player": {
+        "id": 1,
+        "name": "Same Name"
+      },
+      "type": {
+        "name": "Carry"
+      },
+      "play_pattern": {
+        "name": "Open Play"
+      },
+      "location": [
+        40,
+        40
+      ],
+      "end_location": [
+        45,
+        40
+      ]
+    },
+    {
+      "id": "e0",
+      "revision": 10,
+      "period": 1,
+      "index": 0,
+      "timestamp": "00:01:00.000",
+      "minute": 99,
+      "second": 59,
+      "possession": 5,
+      "team": {
+        "id": 101,
+        "name": "MISLEADING TEAM"
+      },
+      "player": {
+        "id": 1,
+        "name": "Same Name"
+      },
+      "type": {
+        "name": "Carry"
+      },
+      "play_pattern": {
+        "name": "Open Play"
+      },
+      "location": [
+        30,
+        40
+      ],
+      "end_location": [
+        50,
+        40
+      ]
+    },
+    {
+      "id": "f1",
+      "revision": 10,
+      "period": 1,
+      "index": 0,
+      "timestamp": "00:01:14.000",
+      "minute": 99,
+      "second": 59,
+      "possession": 6,
+      "team": {
+        "id": 101,
+        "name": "MISLEADING TEAM"
+      },
+      "player": {
+        "id": 1,
+        "name": "Same Name"
+      },
+      "type": {
+        "name": "Carry"
+      },
+      "play_pattern": {
+        "name": "Open Play"
+      },
+      "location": [
+        35,
+        40
+      ],
+      "end_location": [
+        40,
+        40
+      ]
+    },
+    {
+      "id": "a3",
+      "revision": 10,
+      "period": 1,
+      "index": 0,
+      "timestamp": "00:00:13.000",
+      "minute": 99,
+      "second": 59,
+      "possession": 1,
+      "team": {
+        "id": 101,
+        "name": "MISLEADING TEAM"
+      },
+      "player": {
+        "id": 1,
+        "name": "Same Name"
+      },
+      "type": {
+        "name": "Carry"
+      },
+      "play_pattern": {
+        "name": "Open Play"
+      },
+      "location": [
+        45,
+        40
+      ],
+      "end_location": [
+        50,
+        40
+      ]
+    },
+    {
+      "id": "h0",
+      "revision": 10,
+      "period": 2,
+      "index": 0,
+      "timestamp": "00:00:01.000",
+      "minute": 99,
+      "second": 59,
+      "possession": 8,
+      "team": {
+        "id": 101,
+        "name": "MISLEADING TEAM"
+      },
+      "player": {
+        "id": 1,
+        "name": "Same Name"
+      },
+      "type": {
+        "name": "Carry"
+      },
+      "play_pattern": {
+        "name": "Open Play"
+      },
+      "location": [
+        80,
+        40
+      ],
+      "end_location": [
+        70,
+        40
+      ]
+    },
+    {
+      "id": "a4",
+      "revision": 10,
+      "period": 1,
+      "index": 0,
+      "timestamp": "00:00:14.000",
+      "minute": 99,
+      "second": 59,
+      "possession": 1,
+      "team": {
+        "id": 101,
+        "name": "MISLEADING TEAM"
+      },
+      "player": {
+        "id": 1,
+        "name": "Same Name"
+      },
+      "type": {
+        "name": "Carry"
+      },
+      "play_pattern": {
+        "name": "Open Play"
+      },
+      "location": [
+        50,
+        40
+      ],
+      "end_location": [
+        55,
+        40
+      ]
+    },
+    {
+      "id": "g3",
+      "revision": 10,
+      "period": 1,
+      "index": 0,
+      "timestamp": "00:01:42.000",
+      "minute": 99,
+      "second": 59,
+      "possession": 7,
+      "team": {
+        "id": 101,
+        "name": "MISLEADING TEAM"
+      },
+      "player": {
+        "id": 1,
+        "name": "Same Name"
+      },
+      "type": {
+        "name": "Carry"
+      },
+      "play_pattern": {
+        "name": "Open Play"
+      },
+      "location": [
+        45,
+        40
+      ],
+      "end_location": [
+        50,
+        40
+      ]
+    },
+    {
+      "id": "invalidshot",
+      "revision": 10,
+      "period": 2,
+      "index": 0,
+      "timestamp": "00:00:02.000",
+      "minute": 99,
+      "second": 59,
+      "possession": 8,
+      "team": {
+        "id": 101,
+        "name": "MISLEADING TEAM"
+      },
+      "player": {
+        "id": 1,
+        "name": "Same Name"
+      },
+      "type": {
+        "name": "Shot"
+      },
+      "play_pattern": {
+        "name": "Open Play"
+      },
+      "location": null
+    },
+    {
+      "id": "pressure",
+      "revision": 10,
+      "period": 1,
+      "index": 0,
+      "timestamp": "00:00:16.500",
+      "minute": 99,
+      "second": 59,
+      "possession": 1,
+      "team": {
+        "id": 202,
+        "name": "MISLEADING TEAM"
+      },
+      "player": {
+        "id": 1,
+        "name": "Same Name"
+      },
+      "type": {
+        "name": "Pressure"
+      },
+      "play_pattern": {
+        "name": "Open Play"
+      },
+      "location": [
+        60,
+        40
+      ]
+    },
+    {
+      "id": "f3",
+      "revision": 10,
+      "period": 1,
+      "index": 0,
+      "timestamp": "00:01:22.000",
+      "minute": 99,
+      "second": 59,
+      "possession": 6,
+      "team": {
+        "id": 101,
+        "name": "MISLEADING TEAM"
+      },
+      "player": {
+        "id": 1,
+        "name": "Same Name"
+      },
+      "type": {
+        "name": "Carry"
+      },
+      "play_pattern": {
+        "name": "Open Play"
+      },
+      "location": [
+        45,
+        40
+      ],
+      "end_location": [
+        50,
+        40
+      ]
+    },
+    {
+      "id": "a1",
+      "revision": 10,
+      "period": 1,
+      "index": 0,
+      "timestamp": "00:00:11.000",
+      "minute": 99,
+      "second": 59,
+      "possession": 1,
+      "team": {
+        "id": 101,
+        "name": "MISLEADING TEAM"
+      },
+      "player": {
+        "id": 1,
+        "name": "Same Name"
+      },
+      "type": {
+        "name": "Carry"
+      },
+      "play_pattern": {
+        "name": "Open Play"
+      },
+      "location": [
+        35,
+        40
+      ],
+      "end_location": [
+        40,
+        40
+      ]
+    },
+    {
+      "id": "a7",
+      "revision": 10,
+      "period": 1,
+      "index": 0,
+      "timestamp": "00:00:17.000",
+      "minute": 99,
+      "second": 59,
+      "possession": 1,
+      "team": {
+        "id": 101,
+        "name": "MISLEADING TEAM"
+      },
+      "player": {
+        "id": 1,
+        "name": "Same Name"
+      },
+      "type": {
+        "name": "Shot"
+      },
+      "play_pattern": {
+        "name": "Open Play"
+      },
+      "location": [
+        65,
+        40
+      ],
+      "end_location": [
+        70,
+        40
+      ]
+    },
+    {
+      "id": "tie-deleted",
+      "revision": 5,
+      "period": 1,
+      "index": 0,
+      "timestamp": "00:04:10.000",
+      "minute": 99,
+      "second": 59,
+      "possession": 123,
+      "team": {
+        "id": 101,
+        "name": "MISLEADING TEAM"
+      },
+      "player": {
+        "id": 1,
+        "name": "Same Name"
+      },
+      "type": {
+        "name": "Carry"
+      },
+      "play_pattern": {
+        "name": "Open Play"
+      },
+      "location": [
+        70,
+        40
+      ],
+      "end_location": [
+        90,
+        40
+      ]
+    },
+    {
+      "id": "tie-deleted",
+      "revision": 5,
+      "deleted": true
+    },
+    {
+      "id": "bad-clock",
+      "revision": 5,
+      "period": 1,
+      "index": 0,
+      "timestamp": "00:01:60.000",
+      "minute": 99,
+      "second": 59,
+      "possession": 124,
+      "team": {
+        "id": 101,
+        "name": "MISLEADING TEAM"
+      },
+      "player": {
+        "id": 1,
+        "name": "Same Name"
+      },
+      "type": {
+        "name": "Carry"
+      },
+      "play_pattern": {
+        "name": "Open Play"
+      },
+      "location": [
+        70,
+        40
+      ],
+      "end_location": [
+        90,
+        40
+      ]
+    },
+    {
+      "id": "bad-winner",
+      "revision": 1,
+      "period": 1,
+      "index": 0,
+      "timestamp": "00:04:30.000",
+      "minute": 99,
+      "second": 59,
+      "possession": 125,
+      "team": {
+        "id": 101,
+        "name": "MISLEADING TEAM"
+      },
+      "player": {
+        "id": 1,
+        "name": "Same Name"
+      },
+      "type": {
+        "name": "Carry"
+      },
+      "play_pattern": {
+        "name": "Open Play"
+      },
+      "location": [
+        70,
+        40
+      ],
+      "end_location": [
+        90,
+        40
+      ]
+    },
+    {
+      "id": "bad-winner",
+      "revision": 2,
+      "period": 1,
+      "index": "not-an-integer",
+      "timestamp": "00:04:30.000",
+      "minute": 99,
+      "second": 59,
+      "possession": 125,
+      "team": {
+        "id": 101,
+        "name": "MISLEADING TEAM"
+      },
+      "player": {
+        "id": 1,
+        "name": "Same Name"
+      },
+      "type": {
+        "name": "Carry"
+      },
+      "play_pattern": {
+        "name": "Open Play"
+      },
+      "location": [
+        70,
+        40
+      ],
+      "end_location": [
+        90,
+        40
+      ]
+    }
+  ],
+  "match": {
+    "teams": [
+      {
+        "id": 101,
+        "name": "Amber, FC",
+        "attack_sign": {
+          "1": 1,
+          "2": -1,
+          "3": -1
+        }
+      },
+      {
+        "id": 202,
+        "name": "Cobalt Ω",
+        "attack_sign": {
+          "1": -1,
+          "2": 1,
+          "3": 1
+        }
+      }
+    ],
+    "periods": [
+      {
+        "id": 1,
+        "offset_ms": 0,
+        "duration_ms": 2700000
+      },
+      {
+        "id": 2,
+        "offset_ms": 2700000,
+        "duration_ms": 2700000
+      },
+      {
+        "id": 3,
+        "offset_ms": 5400000,
+        "duration_ms": 900000
+      }
+    ]
+  },
+  "lineups": null,
+  "expected": [
+    [
+      "a7",
+      "a2",
+      6,
+      "a2;a3;a4;a5;a6;a7",
+      40,
+      40,
+      5,
+      25
+    ],
+    [
+      "b2",
+      "b2",
+      1,
+      "b2",
+      60,
+      40,
+      0,
+      0
+    ],
+    [
+      "c1",
+      "c0",
+      2,
+      "c0;c1",
+      30,
+      40,
+      1,
+      20
+    ],
+    [
+      "c2",
+      "c2",
+      1,
+      "c2",
+      55,
+      40,
+      0,
+      0
+    ],
+    [
+      "d1",
+      "d1",
+      1,
+      "d1",
+      50,
+      40,
+      0,
+      0
+    ],
+    [
+      "e2",
+      "e2",
+      1,
+      "e2",
+      60,
+      40,
+      0,
+      0
+    ],
+    [
+      "f4",
+      "f0",
+      5,
+      "f0;f1;f2;f3;f4",
+      30,
+      40,
+      15,
+      20
+    ],
+    [
+      "g4",
+      "g1",
+      4,
+      "g1;g2;g3;g4",
+      35,
+      40,
+      11.001,
+      15
+    ],
+    [
+      "h1",
+      "h0",
+      2,
+      "h0;h1",
+      80,
+      40,
+      0,
+      10
+    ]
+  ]
+}

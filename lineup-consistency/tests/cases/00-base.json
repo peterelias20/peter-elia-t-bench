@@ -1,0 +1,715 @@
+{
+  "name": "base",
+  "header": [
+    "team_id",
+    "player_id",
+    "team",
+    "player",
+    "mismatch_types",
+    "minutes_played"
+  ],
+  "events": [
+    {
+      "id": "o",
+      "revision": 0,
+      "period": 2,
+      "index": 0,
+      "timestamp": "00:20:00.000",
+      "minute": 99,
+      "second": 59,
+      "possession": 1,
+      "team": {
+        "id": 101,
+        "name": "MISLEADING TEAM"
+      },
+      "player": {
+        "id": 6,
+        "name": "Same Name"
+      },
+      "type": {
+        "name": "Red Card"
+      },
+      "play_pattern": {
+        "name": "Open Play"
+      },
+      "location": [
+        60,
+        40
+      ]
+    },
+    {
+      "id": "n",
+      "revision": 0,
+      "period": 2,
+      "index": 0,
+      "timestamp": "00:10:00.000",
+      "minute": 99,
+      "second": 59,
+      "possession": 1,
+      "team": {
+        "id": 101,
+        "name": "MISLEADING TEAM"
+      },
+      "player": {
+        "id": 6,
+        "name": "Same Name"
+      },
+      "type": {
+        "name": "Substitution"
+      },
+      "play_pattern": {
+        "name": "Open Play"
+      },
+      "location": [
+        60,
+        40
+      ],
+      "substitution": {
+        "replacement": {
+          "id": 2
+        }
+      }
+    },
+    {
+      "id": "e",
+      "revision": 0,
+      "period": 1,
+      "index": 1,
+      "timestamp": "00:10:00.000",
+      "minute": 99,
+      "second": 59,
+      "possession": 1,
+      "team": {
+        "id": 101,
+        "name": "MISLEADING TEAM"
+      },
+      "player": {
+        "id": 1,
+        "name": "Same Name"
+      },
+      "type": {
+        "name": "Carry"
+      },
+      "play_pattern": {
+        "name": "Open Play"
+      },
+      "location": [
+        60,
+        40
+      ]
+    },
+    {
+      "id": "j",
+      "revision": 0,
+      "period": 1,
+      "index": 0,
+      "timestamp": "00:40:00.000",
+      "minute": 99,
+      "second": 59,
+      "possession": 1,
+      "team": {
+        "id": 101,
+        "name": "MISLEADING TEAM"
+      },
+      "player": {
+        "id": 2,
+        "name": "Same Name"
+      },
+      "type": {
+        "name": "Red Card"
+      },
+      "play_pattern": {
+        "name": "Open Play"
+      },
+      "location": [
+        60,
+        40
+      ]
+    },
+    {
+      "id": "f",
+      "revision": 0,
+      "period": 1,
+      "index": 2,
+      "timestamp": "00:10:00.000",
+      "minute": 99,
+      "second": 59,
+      "possession": 1,
+      "team": {
+        "id": 101,
+        "name": "MISLEADING TEAM"
+      },
+      "player": {
+        "id": 4,
+        "name": "Same Name"
+      },
+      "type": {
+        "name": "Carry"
+      },
+      "play_pattern": {
+        "name": "Open Play"
+      },
+      "location": [
+        60,
+        40
+      ]
+    },
+    {
+      "id": "p",
+      "revision": 0,
+      "period": 2,
+      "index": 0,
+      "timestamp": "00:20:00.001",
+      "minute": 99,
+      "second": 59,
+      "possession": 1,
+      "team": {
+        "id": 101,
+        "name": "MISLEADING TEAM"
+      },
+      "player": {
+        "id": 6,
+        "name": "Same Name"
+      },
+      "type": {
+        "name": "Carry"
+      },
+      "play_pattern": {
+        "name": "Open Play"
+      },
+      "location": [
+        60,
+        40
+      ]
+    },
+    {
+      "id": "r",
+      "revision": 0,
+      "period": 2,
+      "index": 0,
+      "timestamp": "00:30:00.000",
+      "minute": 99,
+      "second": 59,
+      "possession": 1,
+      "team": {
+        "id": 101,
+        "name": "MISLEADING TEAM"
+      },
+      "player": {
+        "id": 99,
+        "name": "Same Name"
+      },
+      "type": {
+        "name": "Carry"
+      },
+      "play_pattern": {
+        "name": "Open Play"
+      },
+      "location": [
+        60,
+        40
+      ]
+    },
+    {
+      "id": "g",
+      "revision": 0,
+      "period": 1,
+      "index": 0,
+      "timestamp": "00:20:00.000",
+      "minute": 99,
+      "second": 59,
+      "possession": 1,
+      "team": {
+        "id": 101,
+        "name": "MISLEADING TEAM"
+      },
+      "player": {
+        "id": 4,
+        "name": "Same Name"
+      },
+      "type": {
+        "name": "Substitution"
+      },
+      "play_pattern": {
+        "name": "Open Play"
+      },
+      "location": [
+        60,
+        40
+      ],
+      "substitution": {
+        "replacement": {
+          "id": 1
+        }
+      }
+    },
+    {
+      "id": "m",
+      "revision": 0,
+      "period": 2,
+      "index": 0,
+      "timestamp": "00:00:01.000",
+      "minute": 99,
+      "second": 59,
+      "possession": 1,
+      "team": {
+        "id": 101,
+        "name": "MISLEADING TEAM"
+      },
+      "player": {
+        "id": 6,
+        "name": "Same Name"
+      },
+      "type": {
+        "name": "Carry"
+      },
+      "play_pattern": {
+        "name": "Open Play"
+      },
+      "location": [
+        60,
+        40
+      ]
+    },
+    {
+      "id": "q",
+      "revision": 0,
+      "period": 2,
+      "index": 0,
+      "timestamp": "00:25:00.000",
+      "minute": 99,
+      "second": 59,
+      "possession": 1,
+      "team": {
+        "id": 101,
+        "name": "MISLEADING TEAM"
+      },
+      "player": {
+        "id": 6,
+        "name": "Same Name"
+      },
+      "type": {
+        "name": "Red Card"
+      },
+      "play_pattern": {
+        "name": "Open Play"
+      },
+      "location": [
+        60,
+        40
+      ]
+    },
+    {
+      "id": "k",
+      "revision": 0,
+      "period": 1,
+      "index": 0,
+      "timestamp": "00:40:00.001",
+      "minute": 99,
+      "second": 59,
+      "possession": 1,
+      "team": {
+        "id": 101,
+        "name": "MISLEADING TEAM"
+      },
+      "player": {
+        "id": 2,
+        "name": "Same Name"
+      },
+      "type": {
+        "name": "Carry"
+      },
+      "play_pattern": {
+        "name": "Open Play"
+      },
+      "location": [
+        60,
+        40
+      ]
+    },
+    {
+      "id": "b",
+      "revision": 0,
+      "period": 1,
+      "index": 1,
+      "timestamp": "00:01:00.000",
+      "minute": 99,
+      "second": 59,
+      "possession": 1,
+      "team": {
+        "id": 202,
+        "name": "MISLEADING TEAM"
+      },
+      "player": {
+        "id": 1,
+        "name": "Same Name"
+      },
+      "type": {
+        "name": "Carry"
+      },
+      "play_pattern": {
+        "name": "Open Play"
+      },
+      "location": [
+        60,
+        40
+      ]
+    },
+    {
+      "id": "l",
+      "revision": 0,
+      "period": 1,
+      "index": 0,
+      "timestamp": "00:46:40.000",
+      "minute": 99,
+      "second": 59,
+      "possession": 1,
+      "team": {
+        "id": 101,
+        "name": "MISLEADING TEAM"
+      },
+      "player": {
+        "id": 1,
+        "name": "Same Name"
+      },
+      "type": {
+        "name": "Substitution"
+      },
+      "play_pattern": {
+        "name": "Open Play"
+      },
+      "location": [
+        60,
+        40
+      ],
+      "substitution": {
+        "replacement": {
+          "id": 6
+        }
+      }
+    },
+    {
+      "id": "c",
+      "revision": 0,
+      "period": 1,
+      "index": 0,
+      "timestamp": "00:02:00.000",
+      "minute": 99,
+      "second": 59,
+      "possession": 1,
+      "team": {
+        "id": 101,
+        "name": "MISLEADING TEAM"
+      },
+      "player": {
+        "id": 2,
+        "name": "Same Name"
+      },
+      "type": {
+        "name": "Carry"
+      },
+      "play_pattern": {
+        "name": "Open Play"
+      },
+      "location": [
+        60,
+        40
+      ]
+    },
+    {
+      "id": "s",
+      "revision": 0,
+      "period": 3,
+      "index": 0,
+      "timestamp": "00:00:01.000",
+      "minute": 99,
+      "second": 59,
+      "possession": 1,
+      "team": {
+        "id": 202,
+        "name": "MISLEADING TEAM"
+      },
+      "player": {
+        "id": 1,
+        "name": "Same Name"
+      },
+      "type": {
+        "name": "Carry"
+      },
+      "play_pattern": {
+        "name": "Open Play"
+      },
+      "location": [
+        60,
+        40
+      ]
+    },
+    {
+      "id": "h",
+      "revision": 0,
+      "period": 1,
+      "index": 0,
+      "timestamp": "00:30:00.000",
+      "minute": 99,
+      "second": 59,
+      "possession": 1,
+      "team": {
+        "id": 101,
+        "name": "MISLEADING TEAM"
+      },
+      "player": {
+        "id": 4,
+        "name": "Same Name"
+      },
+      "type": {
+        "name": "Substitution"
+      },
+      "play_pattern": {
+        "name": "Open Play"
+      },
+      "location": [
+        60,
+        40
+      ],
+      "substitution": {
+        "replacement": {
+          "id": 5
+        }
+      }
+    },
+    {
+      "id": "i",
+      "revision": 0,
+      "period": 1,
+      "index": 0,
+      "timestamp": "00:30:00.001",
+      "minute": 99,
+      "second": 59,
+      "possession": 1,
+      "team": {
+        "id": 101,
+        "name": "MISLEADING TEAM"
+      },
+      "player": {
+        "id": 5,
+        "name": "Same Name"
+      },
+      "type": {
+        "name": "Carry"
+      },
+      "play_pattern": {
+        "name": "Open Play"
+      },
+      "location": [
+        60,
+        40
+      ]
+    },
+    {
+      "id": "a",
+      "revision": 0,
+      "period": 1,
+      "index": 0,
+      "timestamp": "00:01:00.000",
+      "minute": 99,
+      "second": 59,
+      "possession": 1,
+      "team": {
+        "id": 101,
+        "name": "MISLEADING TEAM"
+      },
+      "player": {
+        "id": 1,
+        "name": "Same Name"
+      },
+      "type": {
+        "name": "Carry"
+      },
+      "play_pattern": {
+        "name": "Open Play"
+      },
+      "location": [
+        60,
+        40
+      ]
+    },
+    {
+      "id": "d",
+      "revision": 0,
+      "period": 1,
+      "index": 0,
+      "timestamp": "00:10:00.000",
+      "minute": 99,
+      "second": 59,
+      "possession": 1,
+      "team": {
+        "id": 101,
+        "name": "MISLEADING TEAM"
+      },
+      "player": {
+        "id": 1,
+        "name": "Same Name"
+      },
+      "type": {
+        "name": "Substitution"
+      },
+      "play_pattern": {
+        "name": "Open Play"
+      },
+      "location": [
+        60,
+        40
+      ],
+      "substitution": {
+        "replacement": {
+          "id": 4,
+          "name": "Wrong"
+        }
+      }
+    }
+  ],
+  "match": {
+    "teams": [
+      {
+        "id": 101,
+        "name": "Amber, FC",
+        "attack_sign": {
+          "1": 1,
+          "2": -1,
+          "3": -1
+        }
+      },
+      {
+        "id": 202,
+        "name": "Cobalt Ω",
+        "attack_sign": {
+          "1": -1,
+          "2": 1,
+          "3": 1
+        }
+      }
+    ],
+    "periods": [
+      {
+        "id": 1,
+        "offset_ms": 0,
+        "duration_ms": 2700000
+      },
+      {
+        "id": 2,
+        "offset_ms": 2700000,
+        "duration_ms": 2700000
+      },
+      {
+        "id": 3,
+        "offset_ms": 5400000,
+        "duration_ms": 900000
+      }
+    ]
+  },
+  "lineups": [
+    {
+      "team_id": 101,
+      "players": [
+        {
+          "id": 1,
+          "name": "Twin, Ω",
+          "starter": true
+        },
+        {
+          "id": 2,
+          "name": "Twin, Ω",
+          "starter": true
+        },
+        {
+          "id": 3,
+          "name": "Player 3",
+          "starter": true
+        },
+        {
+          "id": 4,
+          "name": "Player 4",
+          "starter": false
+        },
+        {
+          "id": 5,
+          "name": "Player 5",
+          "starter": false
+        },
+        {
+          "id": 6,
+          "name": "Player 6",
+          "starter": false
+        }
+      ]
+    },
+    {
+      "team_id": 202,
+      "players": [
+        {
+          "id": 1,
+          "name": "Twin, Ω",
+          "starter": true
+        }
+      ]
+    }
+  ],
+  "expected": [
+    [
+      101,
+      1,
+      "Amber, FC",
+      "Twin, Ω",
+      "inactive_appearance",
+      35
+    ],
+    [
+      101,
+      2,
+      "Amber, FC",
+      "Twin, Ω",
+      "inactive_appearance;invalid_substitution",
+      40
+    ],
+    [
+      101,
+      3,
+      "Amber, FC",
+      "Player 3",
+      "started_no_events",
+      105
+    ],
+    [
+      101,
+      4,
+      "Amber, FC",
+      "Player 4",
+      "invalid_substitution",
+      10
+    ],
+    [
+      101,
+      5,
+      "Amber, FC",
+      "Player 5",
+      "inactive_appearance;invalid_substitution",
+      0
+    ],
+    [
+      101,
+      6,
+      "Amber, FC",
+      "Player 6",
+      "inactive_appearance;invalid_dismissal;invalid_substitution",
+      20
+    ],
+    [
+      101,
+      99,
+      "Amber, FC",
+      "Same Name",
+      "inactive_appearance;unregistered_player",
+      0
+    ]
+  ]
+}

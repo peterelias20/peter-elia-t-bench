@@ -1,0 +1,1288 @@
+[
+  {
+    "id": "dp",
+    "revision": 0,
+    "period": 1,
+    "index": 0,
+    "timestamp": "00:00:40.000",
+    "minute": 99,
+    "second": 59,
+    "possession": 4,
+    "team": {
+      "id": 202,
+      "name": "MISLEADING TEAM"
+    },
+    "player": {
+      "id": 1,
+      "name": "Same Name"
+    },
+    "type": {
+      "name": "Pass"
+    },
+    "play_pattern": {
+      "name": "Open Play"
+    },
+    "location": [
+      80,
+      40
+    ],
+    "end_location": [
+      18,
+      40
+    ],
+    "recipient": {
+      "id": 2
+    }
+  },
+  {
+    "id": "bp",
+    "revision": 0,
+    "period": 1,
+    "index": 0,
+    "timestamp": "00:00:20.000",
+    "minute": 99,
+    "second": 59,
+    "possession": 2,
+    "team": {
+      "id": 101,
+      "name": "MISLEADING TEAM"
+    },
+    "player": {
+      "id": 1,
+      "name": "Same Name"
+    },
+    "type": {
+      "name": "Pass"
+    },
+    "play_pattern": {
+      "name": "Open Play"
+    },
+    "location": [
+      85,
+      40
+    ],
+    "end_location": [
+      100,
+      40
+    ],
+    "recipient": {
+      "id": 2
+    }
+  },
+  {
+    "id": "dr",
+    "revision": 0,
+    "period": 1,
+    "index": 0,
+    "timestamp": "00:00:41.000",
+    "minute": 99,
+    "second": 59,
+    "possession": 4,
+    "team": {
+      "id": 202,
+      "name": "MISLEADING TEAM"
+    },
+    "player": {
+      "id": 2,
+      "name": "Same Name"
+    },
+    "type": {
+      "name": "Ball Receipt"
+    },
+    "play_pattern": {
+      "name": "Open Play"
+    },
+    "location": [
+      18,
+      40
+    ]
+  },
+  {
+    "id": "ipressure",
+    "revision": 0,
+    "period": 1,
+    "index": 0,
+    "timestamp": "00:01:30.100",
+    "minute": 99,
+    "second": 59,
+    "possession": 9,
+    "team": {
+      "id": 101,
+      "name": "MISLEADING TEAM"
+    },
+    "player": {
+      "id": 1,
+      "name": "Same Name"
+    },
+    "type": {
+      "name": "Pressure"
+    },
+    "play_pattern": {
+      "name": "Open Play"
+    },
+    "location": [
+      60,
+      40
+    ]
+  },
+  {
+    "id": "revr",
+    "revision": 0,
+    "period": 1,
+    "index": 0,
+    "timestamp": "00:02:32.000",
+    "minute": 99,
+    "second": 59,
+    "possession": 50,
+    "team": {
+      "id": 101,
+      "name": "MISLEADING TEAM"
+    },
+    "player": {
+      "id": 2,
+      "name": "Same Name"
+    },
+    "type": {
+      "name": "Ball Receipt"
+    },
+    "play_pattern": {
+      "name": "Open Play"
+    },
+    "location": [
+      80,
+      40
+    ]
+  },
+  {
+    "id": "gp",
+    "revision": 0,
+    "period": 2,
+    "index": 0,
+    "timestamp": "00:01:10.000",
+    "minute": 99,
+    "second": 59,
+    "possession": 7,
+    "team": {
+      "id": 202,
+      "name": "MISLEADING TEAM"
+    },
+    "player": {
+      "id": 1,
+      "name": "Same Name"
+    },
+    "type": {
+      "name": "Pass"
+    },
+    "play_pattern": {
+      "name": "Open Play"
+    },
+    "location": [
+      80,
+      40
+    ],
+    "end_location": [
+      102,
+      40
+    ],
+    "recipient": {
+      "id": 2
+    }
+  },
+  {
+    "id": "deletedp",
+    "revision": 3,
+    "deleted": true
+  },
+  {
+    "id": "ir",
+    "revision": 0,
+    "period": 1,
+    "index": 0,
+    "timestamp": "00:01:31.000",
+    "minute": 99,
+    "second": 59,
+    "possession": 9,
+    "team": {
+      "id": 101,
+      "name": "MISLEADING TEAM"
+    },
+    "player": {
+      "id": 2,
+      "name": "Same Name"
+    },
+    "type": {
+      "name": "Ball Receipt"
+    },
+    "play_pattern": {
+      "name": "Open Play"
+    },
+    "location": [
+      80,
+      40
+    ]
+  },
+  {
+    "id": "br",
+    "revision": 0,
+    "period": 1,
+    "index": 0,
+    "timestamp": "00:00:22.001",
+    "minute": 99,
+    "second": 59,
+    "possession": 2,
+    "team": {
+      "id": 101,
+      "name": "MISLEADING TEAM"
+    },
+    "player": {
+      "id": 2,
+      "name": "Same Name"
+    },
+    "type": {
+      "name": "Ball Receipt"
+    },
+    "play_pattern": {
+      "name": "Open Play"
+    },
+    "location": [
+      100,
+      40
+    ]
+  },
+  {
+    "id": "kpressure",
+    "revision": 0,
+    "period": 3,
+    "index": 0,
+    "timestamp": "00:01:50.100",
+    "minute": 99,
+    "second": 59,
+    "possession": 11,
+    "team": {
+      "id": 101,
+      "name": "MISLEADING TEAM"
+    },
+    "player": {
+      "id": 1,
+      "name": "Same Name"
+    },
+    "type": {
+      "name": "Pressure"
+    },
+    "play_pattern": {
+      "name": "Open Play"
+    },
+    "location": [
+      60,
+      40
+    ]
+  },
+  {
+    "id": "hr",
+    "revision": 0,
+    "period": 1,
+    "index": 0,
+    "timestamp": "00:01:20.000",
+    "minute": 99,
+    "second": 59,
+    "possession": 8,
+    "team": {
+      "id": 101,
+      "name": "MISLEADING TEAM"
+    },
+    "player": {
+      "id": 2,
+      "name": "Same Name"
+    },
+    "type": {
+      "name": "Ball Receipt"
+    },
+    "play_pattern": {
+      "name": "Open Play"
+    },
+    "location": [
+      80,
+      40
+    ]
+  },
+  {
+    "id": "dpressure",
+    "revision": 0,
+    "period": 1,
+    "index": 0,
+    "timestamp": "00:00:40.100",
+    "minute": 99,
+    "second": 59,
+    "possession": 4,
+    "team": {
+      "id": 202,
+      "name": "MISLEADING TEAM"
+    },
+    "player": {
+      "id": 1,
+      "name": "Same Name"
+    },
+    "type": {
+      "name": "Pressure"
+    },
+    "play_pattern": {
+      "name": "Open Play"
+    },
+    "location": [
+      60,
+      40
+    ]
+  },
+  {
+    "id": "jr",
+    "revision": 0,
+    "period": 1,
+    "index": 0,
+    "timestamp": "00:01:41.000",
+    "minute": 99,
+    "second": 59,
+    "possession": 10,
+    "team": {
+      "id": 101,
+      "name": "MISLEADING TEAM"
+    },
+    "player": {
+      "id": 2,
+      "name": "Same Name"
+    },
+    "type": {
+      "name": "Ball Receipt"
+    },
+    "play_pattern": {
+      "name": "Open Play"
+    },
+    "location": [
+      80,
+      40
+    ]
+  },
+  {
+    "id": "hp",
+    "revision": 0,
+    "period": 1,
+    "index": 0,
+    "timestamp": "00:01:20.000",
+    "minute": 99,
+    "second": 59,
+    "possession": 8,
+    "team": {
+      "id": 101,
+      "name": "MISLEADING TEAM"
+    },
+    "player": {
+      "id": 1,
+      "name": "Same Name"
+    },
+    "type": {
+      "name": "Pass"
+    },
+    "play_pattern": {
+      "name": "Open Play"
+    },
+    "location": [
+      40,
+      40
+    ],
+    "end_location": [
+      80,
+      40
+    ],
+    "recipient": {
+      "id": 2
+    }
+  },
+  {
+    "id": "ep",
+    "revision": 0,
+    "period": 1,
+    "index": 0,
+    "timestamp": "00:00:50.000",
+    "minute": 99,
+    "second": 59,
+    "possession": 5,
+    "team": {
+      "id": 101,
+      "name": "MISLEADING TEAM"
+    },
+    "player": {
+      "id": 1,
+      "name": "Same Name"
+    },
+    "type": {
+      "name": "Pass"
+    },
+    "play_pattern": {
+      "name": "Open Play"
+    },
+    "location": [
+      90,
+      40
+    ],
+    "end_location": [
+      95,
+      80
+    ],
+    "recipient": {
+      "id": 2
+    }
+  },
+  {
+    "id": "ip",
+    "revision": 0,
+    "period": 1,
+    "index": 0,
+    "timestamp": "00:01:30.000",
+    "minute": 99,
+    "second": 59,
+    "possession": 9,
+    "team": {
+      "id": 101,
+      "name": "MISLEADING TEAM"
+    },
+    "player": {
+      "id": 1,
+      "name": "Same Name"
+    },
+    "type": {
+      "name": "Pass"
+    },
+    "play_pattern": {
+      "name": "Open Play"
+    },
+    "location": [
+      30,
+      40
+    ],
+    "end_location": [
+      80,
+      40
+    ],
+    "recipient": {
+      "id": 2
+    },
+    "pass_outcome": {
+      "name": "Incomplete"
+    }
+  },
+  {
+    "id": "lpressure",
+    "revision": 0,
+    "period": 1,
+    "index": 0,
+    "timestamp": "00:02:00.100",
+    "minute": 99,
+    "second": 59,
+    "possession": 12,
+    "team": {
+      "id": 101,
+      "name": "MISLEADING TEAM"
+    },
+    "player": {
+      "id": 1,
+      "name": "Same Name"
+    },
+    "type": {
+      "name": "Pressure"
+    },
+    "play_pattern": {
+      "name": "Open Play"
+    },
+    "location": [
+      60,
+      40
+    ]
+  },
+  {
+    "id": "revp",
+    "revision": 0,
+    "period": 1,
+    "index": 0,
+    "timestamp": "00:02:30.000",
+    "minute": 99,
+    "second": 59,
+    "possession": 50,
+    "team": {
+      "id": 101,
+      "name": "MISLEADING TEAM"
+    },
+    "player": {
+      "id": 1,
+      "name": "Same Name"
+    },
+    "type": {
+      "name": "Pass"
+    },
+    "play_pattern": {
+      "name": "Open Play"
+    },
+    "location": [
+      30,
+      40
+    ],
+    "end_location": [
+      80,
+      40
+    ],
+    "recipient": {
+      "id": 2
+    }
+  },
+  {
+    "id": "kr",
+    "revision": 0,
+    "period": 3,
+    "index": 0,
+    "timestamp": "00:01:51.000",
+    "minute": 99,
+    "second": 59,
+    "possession": 11,
+    "team": {
+      "id": 101,
+      "name": "MISLEADING TEAM"
+    },
+    "player": {
+      "id": 2,
+      "name": "Same Name"
+    },
+    "type": {
+      "name": "Ball Receipt"
+    },
+    "play_pattern": {
+      "name": "Open Play"
+    },
+    "location": [
+      80,
+      40
+    ]
+  },
+  {
+    "id": "er",
+    "revision": 0,
+    "period": 1,
+    "index": 0,
+    "timestamp": "00:00:51.000",
+    "minute": 99,
+    "second": 59,
+    "possession": 5,
+    "team": {
+      "id": 101,
+      "name": "MISLEADING TEAM"
+    },
+    "player": {
+      "id": 2,
+      "name": "Same Name"
+    },
+    "type": {
+      "name": "Ball Receipt"
+    },
+    "play_pattern": {
+      "name": "Open Play"
+    },
+    "location": [
+      95,
+      80
+    ]
+  },
+  {
+    "id": "hpressure",
+    "revision": 0,
+    "period": 1,
+    "index": 0,
+    "timestamp": "00:01:20.100",
+    "minute": 99,
+    "second": 59,
+    "possession": 8,
+    "team": {
+      "id": 101,
+      "name": "MISLEADING TEAM"
+    },
+    "player": {
+      "id": 1,
+      "name": "Same Name"
+    },
+    "type": {
+      "name": "Pressure"
+    },
+    "play_pattern": {
+      "name": "Open Play"
+    },
+    "location": [
+      60,
+      40
+    ]
+  },
+  {
+    "id": "gpressure",
+    "revision": 0,
+    "period": 2,
+    "index": 0,
+    "timestamp": "00:01:10.100",
+    "minute": 99,
+    "second": 59,
+    "possession": 7,
+    "team": {
+      "id": 202,
+      "name": "MISLEADING TEAM"
+    },
+    "player": {
+      "id": 1,
+      "name": "Same Name"
+    },
+    "type": {
+      "name": "Pressure"
+    },
+    "play_pattern": {
+      "name": "Open Play"
+    },
+    "location": [
+      60,
+      40
+    ]
+  },
+  {
+    "id": "jp",
+    "revision": 0,
+    "period": 1,
+    "index": 0,
+    "timestamp": "00:01:40.000",
+    "minute": 99,
+    "second": 59,
+    "possession": 10,
+    "team": {
+      "id": 101,
+      "name": "MISLEADING TEAM"
+    },
+    "player": {
+      "id": 1,
+      "name": "Same Name"
+    },
+    "type": {
+      "name": "Pass"
+    },
+    "play_pattern": {
+      "name": "Open Play"
+    },
+    "location": [
+      30,
+      40
+    ],
+    "end_location": [
+      80,
+      40
+    ],
+    "recipient": {
+      "id": 2
+    }
+  },
+  {
+    "id": "revp",
+    "revision": 2,
+    "period": 1,
+    "index": 0,
+    "timestamp": "00:02:30.000",
+    "minute": 99,
+    "second": 59,
+    "possession": 50,
+    "team": {
+      "id": 101,
+      "name": "MISLEADING TEAM"
+    },
+    "player": {
+      "id": 1,
+      "name": "Same Name"
+    },
+    "type": {
+      "name": "Pass"
+    },
+    "play_pattern": {
+      "name": "Open Play"
+    },
+    "location": [
+      30,
+      40
+    ],
+    "end_location": null,
+    "recipient": {
+      "id": 2
+    }
+  },
+  {
+    "id": "jpressure",
+    "revision": 0,
+    "period": 1,
+    "index": 0,
+    "timestamp": "00:01:40.100",
+    "minute": 99,
+    "second": 59,
+    "possession": 10,
+    "team": {
+      "id": 101,
+      "name": "MISLEADING TEAM"
+    },
+    "player": {
+      "id": 1,
+      "name": "Same Name"
+    },
+    "type": {
+      "name": "Pressure"
+    },
+    "play_pattern": {
+      "name": "Open Play"
+    },
+    "location": [
+      60,
+      40
+    ]
+  },
+  {
+    "id": "gr",
+    "revision": 0,
+    "period": 2,
+    "index": 0,
+    "timestamp": "00:01:11.000",
+    "minute": 99,
+    "second": 59,
+    "possession": 7,
+    "team": {
+      "id": 202,
+      "name": "MISLEADING TEAM"
+    },
+    "player": {
+      "id": 2,
+      "name": "Same Name"
+    },
+    "type": {
+      "name": "Ball Receipt"
+    },
+    "play_pattern": {
+      "name": "Open Play"
+    },
+    "location": [
+      102,
+      40
+    ]
+  },
+  {
+    "id": "fr",
+    "revision": 0,
+    "period": 1,
+    "index": 0,
+    "timestamp": "00:01:01.000",
+    "minute": 99,
+    "second": 59,
+    "possession": 6,
+    "team": {
+      "id": 101,
+      "name": "MISLEADING TEAM"
+    },
+    "player": {
+      "id": 2,
+      "name": "Same Name"
+    },
+    "type": {
+      "name": "Ball Receipt"
+    },
+    "play_pattern": {
+      "name": "Open Play"
+    },
+    "location": [
+      40,
+      20
+    ]
+  },
+  {
+    "id": "deletedr",
+    "revision": 0,
+    "period": 1,
+    "index": 0,
+    "timestamp": "00:02:52.000",
+    "minute": 99,
+    "second": 59,
+    "possession": 51,
+    "team": {
+      "id": 101,
+      "name": "MISLEADING TEAM"
+    },
+    "player": {
+      "id": 2,
+      "name": "Same Name"
+    },
+    "type": {
+      "name": "Ball Receipt"
+    },
+    "play_pattern": {
+      "name": "Open Play"
+    },
+    "location": [
+      80,
+      40
+    ]
+  },
+  {
+    "id": "lr",
+    "revision": 0,
+    "period": 1,
+    "index": 0,
+    "timestamp": "00:02:01.000",
+    "minute": 99,
+    "second": 59,
+    "possession": 12,
+    "team": {
+      "id": 101,
+      "name": "MISLEADING TEAM"
+    },
+    "player": {
+      "id": 2,
+      "name": "Same Name"
+    },
+    "type": {
+      "name": "Ball Receipt"
+    },
+    "play_pattern": {
+      "name": "Open Play"
+    },
+    "location": [
+      82,
+      40
+    ]
+  },
+  {
+    "id": "kp",
+    "revision": 0,
+    "period": 3,
+    "index": 0,
+    "timestamp": "00:01:50.000",
+    "minute": 99,
+    "second": 59,
+    "possession": 11,
+    "team": {
+      "id": 101,
+      "name": "MISLEADING TEAM"
+    },
+    "player": {
+      "id": 1,
+      "name": "Same Name"
+    },
+    "type": {
+      "name": "Pass"
+    },
+    "play_pattern": {
+      "name": "Open Play"
+    },
+    "location": [
+      30,
+      40
+    ],
+    "end_location": [
+      80,
+      40
+    ],
+    "recipient": {
+      "id": 2
+    }
+  },
+  {
+    "id": "ap",
+    "revision": 0,
+    "period": 1,
+    "index": 0,
+    "timestamp": "00:00:10.000",
+    "minute": 99,
+    "second": 59,
+    "possession": 1,
+    "team": {
+      "id": 101,
+      "name": "MISLEADING TEAM"
+    },
+    "player": {
+      "id": 1,
+      "name": "Same Name"
+    },
+    "type": {
+      "name": "Pass"
+    },
+    "play_pattern": {
+      "name": "Open Play"
+    },
+    "location": [
+      30,
+      40
+    ],
+    "end_location": [
+      85,
+      40
+    ],
+    "recipient": {
+      "id": 2
+    }
+  },
+  {
+    "id": "apressure",
+    "revision": 0,
+    "period": 1,
+    "index": 0,
+    "timestamp": "00:00:10.100",
+    "minute": 99,
+    "second": 59,
+    "possession": 1,
+    "team": {
+      "id": 101,
+      "name": "MISLEADING TEAM"
+    },
+    "player": {
+      "id": 1,
+      "name": "Same Name"
+    },
+    "type": {
+      "name": "Pressure"
+    },
+    "play_pattern": {
+      "name": "Open Play"
+    },
+    "location": [
+      60,
+      40
+    ]
+  },
+  {
+    "id": "jblock",
+    "revision": 0,
+    "period": 1,
+    "index": 0,
+    "timestamp": "00:01:40.500",
+    "minute": 99,
+    "second": 59,
+    "possession": 10,
+    "team": {
+      "id": 202,
+      "name": "MISLEADING TEAM"
+    },
+    "player": {
+      "id": 1,
+      "name": "Same Name"
+    },
+    "type": {
+      "name": "Carry"
+    },
+    "play_pattern": {
+      "name": "Open Play"
+    },
+    "location": [
+      80,
+      40
+    ]
+  },
+  {
+    "id": "bpressure",
+    "revision": 0,
+    "period": 1,
+    "index": 0,
+    "timestamp": "00:00:20.100",
+    "minute": 99,
+    "second": 59,
+    "possession": 2,
+    "team": {
+      "id": 101,
+      "name": "MISLEADING TEAM"
+    },
+    "player": {
+      "id": 1,
+      "name": "Same Name"
+    },
+    "type": {
+      "name": "Pressure"
+    },
+    "play_pattern": {
+      "name": "Open Play"
+    },
+    "location": [
+      60,
+      40
+    ]
+  },
+  {
+    "id": "lp",
+    "revision": 0,
+    "period": 1,
+    "index": 0,
+    "timestamp": "00:02:00.000",
+    "minute": 99,
+    "second": 59,
+    "possession": 12,
+    "team": {
+      "id": 101,
+      "name": "MISLEADING TEAM"
+    },
+    "player": {
+      "id": 1,
+      "name": "Same Name"
+    },
+    "type": {
+      "name": "Pass"
+    },
+    "play_pattern": {
+      "name": "Open Play"
+    },
+    "location": [
+      40,
+      40
+    ],
+    "end_location": [
+      80,
+      40
+    ],
+    "recipient": {
+      "id": 2
+    }
+  },
+  {
+    "id": "cp",
+    "revision": 0,
+    "period": 2,
+    "index": 0,
+    "timestamp": "00:00:30.000",
+    "minute": 99,
+    "second": 59,
+    "possession": 3,
+    "team": {
+      "id": 101,
+      "name": "MISLEADING TEAM"
+    },
+    "player": {
+      "id": 1,
+      "name": "Same Name"
+    },
+    "type": {
+      "name": "Pass"
+    },
+    "play_pattern": {
+      "name": "Open Play"
+    },
+    "location": [
+      90,
+      40
+    ],
+    "end_location": [
+      15,
+      40
+    ],
+    "recipient": {
+      "id": 2
+    }
+  },
+  {
+    "id": "cpressure",
+    "revision": 0,
+    "period": 2,
+    "index": 0,
+    "timestamp": "00:00:30.100",
+    "minute": 99,
+    "second": 59,
+    "possession": 3,
+    "team": {
+      "id": 101,
+      "name": "MISLEADING TEAM"
+    },
+    "player": {
+      "id": 1,
+      "name": "Same Name"
+    },
+    "type": {
+      "name": "Pressure"
+    },
+    "play_pattern": {
+      "name": "Open Play"
+    },
+    "location": [
+      60,
+      40
+    ]
+  },
+  {
+    "id": "epressure",
+    "revision": 0,
+    "period": 1,
+    "index": 0,
+    "timestamp": "00:00:50.100",
+    "minute": 99,
+    "second": 59,
+    "possession": 5,
+    "team": {
+      "id": 101,
+      "name": "MISLEADING TEAM"
+    },
+    "player": {
+      "id": 1,
+      "name": "Same Name"
+    },
+    "type": {
+      "name": "Pressure"
+    },
+    "play_pattern": {
+      "name": "Open Play"
+    },
+    "location": [
+      60,
+      40
+    ]
+  },
+  {
+    "id": "fp",
+    "revision": 0,
+    "period": 1,
+    "index": 0,
+    "timestamp": "00:01:00.000",
+    "minute": 99,
+    "second": 59,
+    "possession": 6,
+    "team": {
+      "id": 101,
+      "name": "MISLEADING TEAM"
+    },
+    "player": {
+      "id": 1,
+      "name": "Same Name"
+    },
+    "type": {
+      "name": "Pass"
+    },
+    "play_pattern": {
+      "name": "Open Play"
+    },
+    "location": [
+      40,
+      40
+    ],
+    "end_location": [
+      40,
+      20
+    ],
+    "recipient": {
+      "id": 2
+    }
+  },
+  {
+    "id": "fpressure",
+    "revision": 0,
+    "period": 1,
+    "index": 0,
+    "timestamp": "00:01:00.100",
+    "minute": 99,
+    "second": 59,
+    "possession": 6,
+    "team": {
+      "id": 101,
+      "name": "MISLEADING TEAM"
+    },
+    "player": {
+      "id": 1,
+      "name": "Same Name"
+    },
+    "type": {
+      "name": "Pressure"
+    },
+    "play_pattern": {
+      "name": "Open Play"
+    },
+    "location": [
+      60,
+      40
+    ]
+  },
+  {
+    "id": "ar",
+    "revision": 0,
+    "period": 1,
+    "index": 0,
+    "timestamp": "00:00:12.000",
+    "minute": 99,
+    "second": 59,
+    "possession": 1,
+    "team": {
+      "id": 101,
+      "name": "MISLEADING TEAM"
+    },
+    "player": {
+      "id": 2,
+      "name": "Same Name"
+    },
+    "type": {
+      "name": "Ball Receipt"
+    },
+    "play_pattern": {
+      "name": "Open Play"
+    },
+    "location": [
+      85,
+      40
+    ]
+  },
+  {
+    "id": "cr",
+    "revision": 0,
+    "period": 2,
+    "index": 0,
+    "timestamp": "00:00:30.001",
+    "minute": 99,
+    "second": 59,
+    "possession": 3,
+    "team": {
+      "id": 101,
+      "name": "MISLEADING TEAM"
+    },
+    "player": {
+      "id": 2,
+      "name": "Same Name"
+    },
+    "type": {
+      "name": "Ball Receipt"
+    },
+    "play_pattern": {
+      "name": "Open Play"
+    },
+    "location": [
+      15,
+      40
+    ]
+  },
+  {
+    "id": "deletedp",
+    "revision": 0,
+    "period": 1,
+    "index": 0,
+    "timestamp": "00:02:50.000",
+    "minute": 99,
+    "second": 59,
+    "possession": 51,
+    "team": {
+      "id": 101,
+      "name": "MISLEADING TEAM"
+    },
+    "player": {
+      "id": 1,
+      "name": "Same Name"
+    },
+    "type": {
+      "name": "Pass"
+    },
+    "play_pattern": {
+      "name": "Open Play"
+    },
+    "location": [
+      30,
+      40
+    ],
+    "end_location": [
+      80,
+      40
+    ],
+    "recipient": {
+      "id": 2
+    }
+  }
+]

@@ -1,0 +1,1247 @@
+{
+  "name": "mirrored-identities",
+  "header": [
+    "first_id",
+    "last_id",
+    "team_id",
+    "player_id",
+    "carry_count",
+    "distance_forward",
+    "path_length",
+    "efficiency"
+  ],
+  "events": [
+    {
+      "id": "opaque-0009",
+      "revision": 0,
+      "period": 1,
+      "index": 0,
+      "timestamp": "00:01:31.000",
+      "minute": 99,
+      "second": 59,
+      "possession": 156,
+      "team": {
+        "id": 701,
+        "name": "MISLEADING TEAM"
+      },
+      "player": {
+        "id": 999,
+        "name": "Renamed, Same Name"
+      },
+      "type": {
+        "name": "Carry"
+      },
+      "play_pattern": {
+        "name": "Open Play"
+      },
+      "location": [
+        44,
+        40
+      ],
+      "end_location": [
+        38,
+        40
+      ]
+    },
+    {
+      "id": "opaque-0035",
+      "revision": 0,
+      "period": 1,
+      "index": 0,
+      "timestamp": "00:00:11.100",
+      "minute": 99,
+      "second": 59,
+      "possession": 20,
+      "team": {
+        "id": 701,
+        "name": "MISLEADING TEAM"
+      },
+      "player": {
+        "id": 999,
+        "name": "Renamed, Same Name"
+      },
+      "type": {
+        "name": "Pressure"
+      },
+      "play_pattern": {
+        "name": "Open Play"
+      },
+      "location": [
+        60,
+        40
+      ]
+    },
+    {
+      "id": "opaque-0008",
+      "revision": 0,
+      "period": 1,
+      "index": 0,
+      "timestamp": "00:01:30.500",
+      "minute": 99,
+      "second": 59,
+      "possession": 156,
+      "team": {
+        "id": 701,
+        "name": "MISLEADING TEAM"
+      },
+      "player": {
+        "id": 999,
+        "name": "Renamed, Same Name"
+      },
+      "type": {
+        "name": "Pass"
+      },
+      "play_pattern": {
+        "name": "Open Play"
+      },
+      "location": [
+        60,
+        40
+      ]
+    },
+    {
+      "id": "opaque-0010",
+      "revision": 0,
+      "period": 1,
+      "index": 0,
+      "timestamp": "00:01:30.000",
+      "minute": 99,
+      "second": 59,
+      "possession": 156,
+      "team": {
+        "id": 701,
+        "name": "MISLEADING TEAM"
+      },
+      "player": {
+        "id": 999,
+        "name": "Renamed, Same Name"
+      },
+      "type": {
+        "name": "Carry"
+      },
+      "play_pattern": {
+        "name": "Open Play"
+      },
+      "location": [
+        50,
+        40
+      ],
+      "end_location": [
+        44,
+        40
+      ]
+    },
+    {
+      "id": "opaque-0033",
+      "revision": 0,
+      "period": 2,
+      "index": 0,
+      "timestamp": "00:00:21.000",
+      "minute": 99,
+      "second": 59,
+      "possession": 37,
+      "team": {
+        "id": 701,
+        "name": "MISLEADING TEAM"
+      },
+      "player": {
+        "id": 999,
+        "name": "Renamed, Same Name"
+      },
+      "type": {
+        "name": "Carry"
+      },
+      "play_pattern": {
+        "name": "Open Play"
+      },
+      "location": [
+        86,
+        40
+      ],
+      "end_location": [
+        92,
+        40
+      ]
+    },
+    {
+      "id": "opaque-0038",
+      "revision": 0,
+      "period": 1,
+      "index": 0,
+      "timestamp": "00:00:10.000",
+      "minute": 99,
+      "second": 59,
+      "possession": 20,
+      "team": {
+        "id": 701,
+        "name": "MISLEADING TEAM"
+      },
+      "player": {
+        "id": 999,
+        "name": "Renamed, Same Name"
+      },
+      "type": {
+        "name": "Carry"
+      },
+      "play_pattern": {
+        "name": "Open Play"
+      },
+      "location": [
+        50,
+        40
+      ],
+      "end_location": [
+        44,
+        40
+      ]
+    },
+    {
+      "id": "opaque-0011",
+      "revision": 0,
+      "period": 1,
+      "index": 0,
+      "timestamp": "00:01:21.100",
+      "minute": 99,
+      "second": 59,
+      "possession": 139,
+      "team": {
+        "id": 701,
+        "name": "MISLEADING TEAM"
+      },
+      "player": {
+        "id": 999,
+        "name": "Renamed, Same Name"
+      },
+      "type": {
+        "name": "Pressure"
+      },
+      "play_pattern": {
+        "name": "Open Play"
+      },
+      "location": [
+        60,
+        40
+      ]
+    },
+    {
+      "id": "opaque-0003",
+      "revision": 0,
+      "period": 1,
+      "index": 0,
+      "timestamp": "00:01:50.000",
+      "minute": 99,
+      "second": 59,
+      "possession": 190,
+      "team": {
+        "id": 701,
+        "name": "MISLEADING TEAM"
+      },
+      "player": {
+        "id": 999,
+        "name": "Renamed, Same Name"
+      },
+      "type": {
+        "name": "Carry"
+      },
+      "play_pattern": {
+        "name": "Open Play"
+      },
+      "location": [
+        50,
+        40
+      ],
+      "end_location": [
+        40,
+        40
+      ]
+    },
+    {
+      "id": "opaque-0037",
+      "revision": 0,
+      "period": 1,
+      "index": 0,
+      "timestamp": "00:00:11.000",
+      "minute": 99,
+      "second": 59,
+      "possession": 20,
+      "team": {
+        "id": 701,
+        "name": "MISLEADING TEAM"
+      },
+      "player": {
+        "id": 999,
+        "name": "Renamed, Same Name"
+      },
+      "type": {
+        "name": "Carry"
+      },
+      "play_pattern": {
+        "name": "Open Play"
+      },
+      "location": [
+        44,
+        40
+      ],
+      "end_location": [
+        38,
+        40
+      ]
+    },
+    {
+      "id": "opaque-0025",
+      "revision": 0,
+      "period": 1,
+      "index": 0,
+      "timestamp": "00:00:41.100",
+      "minute": 99,
+      "second": 59,
+      "possession": 71,
+      "team": {
+        "id": 701,
+        "name": "MISLEADING TEAM"
+      },
+      "player": {
+        "id": 999,
+        "name": "Renamed, Same Name"
+      },
+      "type": {
+        "name": "Pressure"
+      },
+      "play_pattern": {
+        "name": "Open Play"
+      },
+      "location": [
+        60,
+        40
+      ]
+    },
+    {
+      "id": "opaque-0034",
+      "revision": 0,
+      "period": 2,
+      "index": 0,
+      "timestamp": "00:00:20.000",
+      "minute": 99,
+      "second": 59,
+      "possession": 37,
+      "team": {
+        "id": 701,
+        "name": "MISLEADING TEAM"
+      },
+      "player": {
+        "id": 999,
+        "name": "Renamed, Same Name"
+      },
+      "type": {
+        "name": "Carry"
+      },
+      "play_pattern": {
+        "name": "Open Play"
+      },
+      "location": [
+        80,
+        40
+      ],
+      "end_location": [
+        86,
+        40
+      ]
+    },
+    {
+      "id": "opaque-0005",
+      "revision": 0,
+      "period": 3,
+      "index": 0,
+      "timestamp": "00:01:40.000",
+      "minute": 99,
+      "second": 59,
+      "possession": 173,
+      "team": {
+        "id": 303,
+        "name": "MISLEADING TEAM"
+      },
+      "player": {
+        "id": 999,
+        "name": "Renamed, Same Name"
+      },
+      "type": {
+        "name": "Carry"
+      },
+      "play_pattern": {
+        "name": "Open Play"
+      },
+      "location": [
+        80,
+        40
+      ],
+      "end_location": [
+        90,
+        40
+      ]
+    },
+    {
+      "id": "opaque-0019",
+      "revision": 0,
+      "period": 1,
+      "index": 0,
+      "timestamp": "00:01:01.100",
+      "minute": 99,
+      "second": 59,
+      "possession": 105,
+      "team": {
+        "id": 701,
+        "name": "MISLEADING TEAM"
+      },
+      "player": {
+        "id": 999,
+        "name": "Renamed, Same Name"
+      },
+      "type": {
+        "name": "Pressure"
+      },
+      "play_pattern": {
+        "name": "Open Play"
+      },
+      "location": [
+        60,
+        40
+      ]
+    },
+    {
+      "id": "opaque-0021",
+      "revision": 0,
+      "period": 1,
+      "index": 0,
+      "timestamp": "00:01:01.000",
+      "minute": 99,
+      "second": 59,
+      "possession": 105,
+      "team": {
+        "id": 701,
+        "name": "MISLEADING TEAM"
+      },
+      "player": {
+        "id": 999,
+        "name": "Renamed, Same Name"
+      },
+      "type": {
+        "name": "Carry"
+      },
+      "play_pattern": {
+        "name": "Open Play"
+      },
+      "location": [
+        44,
+        40
+      ],
+      "end_location": [
+        39,
+        40
+      ]
+    },
+    {
+      "id": "opaque-0028",
+      "revision": 0,
+      "period": 1,
+      "index": 0,
+      "timestamp": "00:00:40.000",
+      "minute": 99,
+      "second": 59,
+      "possession": 71,
+      "team": {
+        "id": 701,
+        "name": "MISLEADING TEAM"
+      },
+      "player": {
+        "id": 999,
+        "name": "Renamed, Same Name"
+      },
+      "type": {
+        "name": "Carry"
+      },
+      "play_pattern": {
+        "name": "Open Play"
+      },
+      "location": [
+        50,
+        40
+      ],
+      "end_location": [
+        45,
+        20
+      ]
+    },
+    {
+      "id": "opaque-0024",
+      "revision": 0,
+      "period": 2,
+      "index": 0,
+      "timestamp": "00:00:50.000",
+      "minute": 99,
+      "second": 59,
+      "possession": 88,
+      "team": {
+        "id": 303,
+        "name": "MISLEADING TEAM"
+      },
+      "player": {
+        "id": 999,
+        "name": "Renamed, Same Name"
+      },
+      "type": {
+        "name": "Carry"
+      },
+      "play_pattern": {
+        "name": "Open Play"
+      },
+      "location": [
+        50,
+        40
+      ],
+      "end_location": [
+        40,
+        40
+      ]
+    },
+    {
+      "id": "opaque-0027",
+      "revision": 0,
+      "period": 1,
+      "index": 0,
+      "timestamp": "00:00:41.000",
+      "minute": 99,
+      "second": 59,
+      "possession": 71,
+      "team": {
+        "id": 701,
+        "name": "MISLEADING TEAM"
+      },
+      "player": {
+        "id": 999,
+        "name": "Renamed, Same Name"
+      },
+      "type": {
+        "name": "Carry"
+      },
+      "play_pattern": {
+        "name": "Open Play"
+      },
+      "location": [
+        45,
+        20
+      ],
+      "end_location": [
+        35,
+        40
+      ]
+    },
+    {
+      "id": "opaque-0007",
+      "revision": 0,
+      "period": 1,
+      "index": 0,
+      "timestamp": "00:01:30.100",
+      "minute": 99,
+      "second": 59,
+      "possession": 156,
+      "team": {
+        "id": 701,
+        "name": "MISLEADING TEAM"
+      },
+      "player": {
+        "id": 999,
+        "name": "Renamed, Same Name"
+      },
+      "type": {
+        "name": "Pressure"
+      },
+      "play_pattern": {
+        "name": "Open Play"
+      },
+      "location": [
+        60,
+        40
+      ]
+    },
+    {
+      "id": "opaque-0016",
+      "revision": 0,
+      "period": 1,
+      "index": 0,
+      "timestamp": "00:01:10.100",
+      "minute": 99,
+      "second": 59,
+      "possession": 122,
+      "team": {
+        "id": 701,
+        "name": "MISLEADING TEAM"
+      },
+      "player": {
+        "id": 999,
+        "name": "Renamed, Same Name"
+      },
+      "type": {
+        "name": "Pressure"
+      },
+      "play_pattern": {
+        "name": "Open Play"
+      },
+      "location": [
+        60,
+        40
+      ]
+    },
+    {
+      "id": "opaque-0002",
+      "revision": 0,
+      "period": 1,
+      "index": 0,
+      "timestamp": "00:01:50.100",
+      "minute": 99,
+      "second": 59,
+      "possession": 190,
+      "team": {
+        "id": 701,
+        "name": "MISLEADING TEAM"
+      },
+      "player": {
+        "id": 999,
+        "name": "Renamed, Same Name"
+      },
+      "type": {
+        "name": "Pressure"
+      },
+      "play_pattern": {
+        "name": "Open Play"
+      },
+      "location": [
+        60,
+        40
+      ]
+    },
+    {
+      "id": "opaque-0012",
+      "revision": 0,
+      "period": 1,
+      "index": 0,
+      "timestamp": "00:01:20.100",
+      "minute": 99,
+      "second": 59,
+      "possession": 139,
+      "team": {
+        "id": 701,
+        "name": "MISLEADING TEAM"
+      },
+      "player": {
+        "id": 999,
+        "name": "Renamed, Same Name"
+      },
+      "type": {
+        "name": "Pressure"
+      },
+      "play_pattern": {
+        "name": "Open Play"
+      },
+      "location": [
+        60,
+        40
+      ]
+    },
+    {
+      "id": "opaque-0026",
+      "revision": 0,
+      "period": 1,
+      "index": 0,
+      "timestamp": "00:00:40.100",
+      "minute": 99,
+      "second": 59,
+      "possession": 71,
+      "team": {
+        "id": 701,
+        "name": "MISLEADING TEAM"
+      },
+      "player": {
+        "id": 999,
+        "name": "Renamed, Same Name"
+      },
+      "type": {
+        "name": "Pressure"
+      },
+      "play_pattern": {
+        "name": "Open Play"
+      },
+      "location": [
+        60,
+        40
+      ]
+    },
+    {
+      "id": "opaque-0031",
+      "revision": 0,
+      "period": 2,
+      "index": 0,
+      "timestamp": "00:00:21.100",
+      "minute": 99,
+      "second": 59,
+      "possession": 37,
+      "team": {
+        "id": 701,
+        "name": "MISLEADING TEAM"
+      },
+      "player": {
+        "id": 999,
+        "name": "Renamed, Same Name"
+      },
+      "type": {
+        "name": "Pressure"
+      },
+      "play_pattern": {
+        "name": "Open Play"
+      },
+      "location": [
+        60,
+        40
+      ]
+    },
+    {
+      "id": "opaque-0013",
+      "revision": 0,
+      "period": 1,
+      "index": 0,
+      "timestamp": "00:01:21.000",
+      "minute": 99,
+      "second": 59,
+      "possession": 139,
+      "team": {
+        "id": 701,
+        "name": "MISLEADING TEAM"
+      },
+      "player": {
+        "id": 999,
+        "name": "Renamed, Same Name"
+      },
+      "type": {
+        "name": "Carry"
+      },
+      "play_pattern": {
+        "name": "Open Play"
+      },
+      "location": [
+        42.998999999999995,
+        40
+      ],
+      "end_location": [
+        37,
+        40
+      ]
+    },
+    {
+      "id": "opaque-0036",
+      "revision": 0,
+      "period": 1,
+      "index": 0,
+      "timestamp": "00:00:10.100",
+      "minute": 99,
+      "second": 59,
+      "possession": 20,
+      "team": {
+        "id": 701,
+        "name": "MISLEADING TEAM"
+      },
+      "player": {
+        "id": 999,
+        "name": "Renamed, Same Name"
+      },
+      "type": {
+        "name": "Pressure"
+      },
+      "play_pattern": {
+        "name": "Open Play"
+      },
+      "location": [
+        60,
+        40
+      ]
+    },
+    {
+      "id": "opaque-0015",
+      "revision": 0,
+      "period": 1,
+      "index": 0,
+      "timestamp": "00:01:11.101",
+      "minute": 99,
+      "second": 59,
+      "possession": 122,
+      "team": {
+        "id": 701,
+        "name": "MISLEADING TEAM"
+      },
+      "player": {
+        "id": 999,
+        "name": "Renamed, Same Name"
+      },
+      "type": {
+        "name": "Pressure"
+      },
+      "play_pattern": {
+        "name": "Open Play"
+      },
+      "location": [
+        60,
+        40
+      ]
+    },
+    {
+      "id": "opaque-0004",
+      "revision": 0,
+      "period": 3,
+      "index": 0,
+      "timestamp": "00:01:40.100",
+      "minute": 99,
+      "second": 59,
+      "possession": 173,
+      "team": {
+        "id": 303,
+        "name": "MISLEADING TEAM"
+      },
+      "player": {
+        "id": 999,
+        "name": "Renamed, Same Name"
+      },
+      "type": {
+        "name": "Pressure"
+      },
+      "play_pattern": {
+        "name": "Open Play"
+      },
+      "location": [
+        60,
+        40
+      ]
+    },
+    {
+      "id": "opaque-0030",
+      "revision": 0,
+      "period": 1,
+      "index": 0,
+      "timestamp": "00:00:30.000",
+      "minute": 99,
+      "second": 59,
+      "possession": 54,
+      "team": {
+        "id": 701,
+        "name": "MISLEADING TEAM"
+      },
+      "player": {
+        "id": 999,
+        "name": "Renamed, Same Name"
+      },
+      "type": {
+        "name": "Carry"
+      },
+      "play_pattern": {
+        "name": "Open Play"
+      },
+      "location": [
+        50,
+        40
+      ],
+      "end_location": [
+        40.0001,
+        40
+      ]
+    },
+    {
+      "id": "opaque-0001",
+      "revision": 2,
+      "period": 1,
+      "index": 0,
+      "timestamp": "00:01:45.000",
+      "minute": 99,
+      "second": 59,
+      "possession": 1686,
+      "team": {
+        "id": 701,
+        "name": "MISLEADING TEAM"
+      },
+      "player": {
+        "id": 999,
+        "name": "Renamed, Same Name"
+      },
+      "type": {
+        "name": "Carry"
+      },
+      "play_pattern": {
+        "name": "Open Play"
+      },
+      "location": [
+        true,
+        40
+      ],
+      "end_location": [
+        40,
+        40
+      ]
+    },
+    {
+      "id": "opaque-0017",
+      "revision": 0,
+      "period": 1,
+      "index": 0,
+      "timestamp": "00:01:11.001",
+      "minute": 99,
+      "second": 59,
+      "possession": 122,
+      "team": {
+        "id": 701,
+        "name": "MISLEADING TEAM"
+      },
+      "player": {
+        "id": 999,
+        "name": "Renamed, Same Name"
+      },
+      "type": {
+        "name": "Carry"
+      },
+      "play_pattern": {
+        "name": "Open Play"
+      },
+      "location": [
+        44,
+        40
+      ],
+      "end_location": [
+        38,
+        40
+      ]
+    },
+    {
+      "id": "opaque-0023",
+      "revision": 0,
+      "period": 2,
+      "index": 0,
+      "timestamp": "00:00:50.100",
+      "minute": 99,
+      "second": 59,
+      "possession": 88,
+      "team": {
+        "id": 303,
+        "name": "MISLEADING TEAM"
+      },
+      "player": {
+        "id": 999,
+        "name": "Renamed, Same Name"
+      },
+      "type": {
+        "name": "Pressure"
+      },
+      "play_pattern": {
+        "name": "Open Play"
+      },
+      "location": [
+        60,
+        40
+      ]
+    },
+    {
+      "id": "opaque-0022",
+      "revision": 0,
+      "period": 1,
+      "index": 0,
+      "timestamp": "00:01:00.000",
+      "minute": 99,
+      "second": 59,
+      "possession": 105,
+      "team": {
+        "id": 701,
+        "name": "MISLEADING TEAM"
+      },
+      "player": {
+        "id": 999,
+        "name": "Renamed, Same Name"
+      },
+      "type": {
+        "name": "Carry"
+      },
+      "play_pattern": {
+        "name": "Open Play"
+      },
+      "location": [
+        51,
+        40
+      ],
+      "end_location": [
+        45,
+        40
+      ]
+    },
+    {
+      "id": "opaque-0032",
+      "revision": 0,
+      "period": 2,
+      "index": 0,
+      "timestamp": "00:00:20.100",
+      "minute": 99,
+      "second": 59,
+      "possession": 37,
+      "team": {
+        "id": 701,
+        "name": "MISLEADING TEAM"
+      },
+      "player": {
+        "id": 999,
+        "name": "Renamed, Same Name"
+      },
+      "type": {
+        "name": "Pressure"
+      },
+      "play_pattern": {
+        "name": "Open Play"
+      },
+      "location": [
+        60,
+        40
+      ]
+    },
+    {
+      "id": "opaque-0020",
+      "revision": 0,
+      "period": 1,
+      "index": 0,
+      "timestamp": "00:01:00.100",
+      "minute": 99,
+      "second": 59,
+      "possession": 105,
+      "team": {
+        "id": 701,
+        "name": "MISLEADING TEAM"
+      },
+      "player": {
+        "id": 999,
+        "name": "Renamed, Same Name"
+      },
+      "type": {
+        "name": "Pressure"
+      },
+      "play_pattern": {
+        "name": "Open Play"
+      },
+      "location": [
+        60,
+        40
+      ]
+    },
+    {
+      "id": "opaque-0014",
+      "revision": 0,
+      "period": 1,
+      "index": 0,
+      "timestamp": "00:01:20.000",
+      "minute": 99,
+      "second": 59,
+      "possession": 139,
+      "team": {
+        "id": 701,
+        "name": "MISLEADING TEAM"
+      },
+      "player": {
+        "id": 999,
+        "name": "Renamed, Same Name"
+      },
+      "type": {
+        "name": "Carry"
+      },
+      "play_pattern": {
+        "name": "Open Play"
+      },
+      "location": [
+        50,
+        40
+      ],
+      "end_location": [
+        44,
+        40
+      ]
+    },
+    {
+      "id": "opaque-0029",
+      "revision": 0,
+      "period": 1,
+      "index": 0,
+      "timestamp": "00:00:30.100",
+      "minute": 99,
+      "second": 59,
+      "possession": 54,
+      "team": {
+        "id": 701,
+        "name": "MISLEADING TEAM"
+      },
+      "player": {
+        "id": 999,
+        "name": "Renamed, Same Name"
+      },
+      "type": {
+        "name": "Pressure"
+      },
+      "play_pattern": {
+        "name": "Open Play"
+      },
+      "location": [
+        60,
+        40
+      ]
+    },
+    {
+      "id": "opaque-0006",
+      "revision": 0,
+      "period": 1,
+      "index": 0,
+      "timestamp": "00:01:31.100",
+      "minute": 99,
+      "second": 59,
+      "possession": 156,
+      "team": {
+        "id": 701,
+        "name": "MISLEADING TEAM"
+      },
+      "player": {
+        "id": 999,
+        "name": "Renamed, Same Name"
+      },
+      "type": {
+        "name": "Pressure"
+      },
+      "play_pattern": {
+        "name": "Open Play"
+      },
+      "location": [
+        60,
+        40
+      ]
+    },
+    {
+      "id": "opaque-0018",
+      "revision": 0,
+      "period": 1,
+      "index": 0,
+      "timestamp": "00:01:10.000",
+      "minute": 99,
+      "second": 59,
+      "possession": 122,
+      "team": {
+        "id": 701,
+        "name": "MISLEADING TEAM"
+      },
+      "player": {
+        "id": 999,
+        "name": "Renamed, Same Name"
+      },
+      "type": {
+        "name": "Carry"
+      },
+      "play_pattern": {
+        "name": "Open Play"
+      },
+      "location": [
+        50,
+        40
+      ],
+      "end_location": [
+        44,
+        40
+      ]
+    }
+  ],
+  "match": {
+    "teams": [
+      {
+        "id": 701,
+        "name": "Renamed, Amber, FC",
+        "attack_sign": {
+          "1": -1,
+          "2": 1,
+          "3": 1
+        }
+      },
+      {
+        "id": 303,
+        "name": "Renamed, Cobalt Ω",
+        "attack_sign": {
+          "1": 1,
+          "2": -1,
+          "3": -1
+        }
+      }
+    ],
+    "periods": [
+      {
+        "id": 1,
+        "offset_ms": 0,
+        "duration_ms": 2700000
+      },
+      {
+        "id": 2,
+        "offset_ms": 2700000,
+        "duration_ms": 2700000
+      },
+      {
+        "id": 3,
+        "offset_ms": 5400000,
+        "duration_ms": 900000
+      }
+    ]
+  },
+  "lineups": null,
+  "expected": [
+    [
+      "opaque-0038",
+      "opaque-0037",
+      701,
+      999,
+      2,
+      12,
+      12.0,
+      1.0
+    ],
+    [
+      "opaque-0022",
+      "opaque-0021",
+      701,
+      999,
+      2,
+      12,
+      12.0,
+      1.0
+    ],
+    [
+      "opaque-0003",
+      "opaque-0003",
+      701,
+      999,
+      1,
+      10,
+      10.0,
+      1.0
+    ],
+    [
+      "opaque-0034",
+      "opaque-0033",
+      701,
+      999,
+      2,
+      12,
+      12.0,
+      1.0
+    ],
+    [
+      "opaque-0024",
+      "opaque-0024",
+      303,
+      999,
+      1,
+      10,
+      10.0,
+      1.0
+    ]
+  ]
+}
