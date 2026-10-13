@@ -1,4 +1,16 @@
 [task]
-name = "01-forward-passes"
+name = "codimango/01-forward-passes"
+description = "Find all forward passes with half-time side flip"
 difficulty = "easy"
 timeout = 60
+track_assignment = "t-bench-external-repos"
+workstream = "swe_public_repo"
+format = "terminal_bench_single_turn"
+authors = [{name = "Peter Elias", email = "peterelias@meta.com"}]
+keywords = ["sports-analytics", "data-filtering", "python"]
+
+[metadata]
+reward_type = "binary"
+category_subdomain = ["data_analytics"]
+category_usecase = ["data_analysis", "process_data"]
+category_subcategory = { data_analytics = ["metric_computation"] }

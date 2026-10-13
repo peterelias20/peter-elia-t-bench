@@ -1,4 +1,16 @@
 [task]
-name = "03-switch-of-play"
+name = "codimango/03-switch-of-play"
+description = "Find switches of play with recomputed length and wing flip"
 difficulty = "medium"
 timeout = 60
+track_assignment = "t-bench-external-repos"
+workstream = "swe_public_repo"
+format = "terminal_bench_single_turn"
+authors = [{name = "Peter Elias", email = "peterelias@meta.com"}]
+keywords = ["sports-analytics", "geometry", "python"]
+
+[metadata]
+reward_type = "binary"
+category_subdomain = ["data_analytics"]
+category_usecase = ["data_analysis", "process_data"]
+category_subcategory = { data_analytics = ["metric_computation"] }
