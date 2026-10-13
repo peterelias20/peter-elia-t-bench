@@ -1,0 +1,4 @@
+[task]
+name = "02-progressive-carries"
+difficulty = "medium"
+timeout = 60

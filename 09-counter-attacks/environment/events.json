@@ -1,0 +1,281 @@
+[
+  {
+    "id": "r001",
+    "period": 1,
+    "minute": 10,
+    "second": 0,
+    "timestamp": "00:10:00.000",
+    "possession": 1,
+    "play_pattern": {
+      "name": "Open Play"
+    },
+    "team": {
+      "id": 1,
+      "name": "Team A"
+    },
+    "player": {
+      "name": "A1"
+    },
+    "type": {
+      "name": "Ball Recovery"
+    },
+    "location": [
+      30,
+      40
+    ]
+  },
+  {
+    "id": "s101",
+    "period": 1,
+    "minute": 10,
+    "second": 8,
+    "timestamp": "00:10:08.000",
+    "possession": 1,
+    "play_pattern": {
+      "name": "Open Play"
+    },
+    "team": {
+      "id": 1,
+      "name": "Team A"
+    },
+    "player": {
+      "name": "A2"
+    },
+    "type": {
+      "name": "Shot"
+    },
+    "location": [
+      70,
+      40
+    ]
+  },
+  {
+    "id": "r002",
+    "period": 1,
+    "minute": 20,
+    "second": 0,
+    "timestamp": "00:20:00.000",
+    "possession": 2,
+    "play_pattern": {
+      "name": "Open Play"
+    },
+    "team": {
+      "id": 2,
+      "name": "Team B"
+    },
+    "player": {
+      "name": "B1"
+    },
+    "type": {
+      "name": "Duel"
+    },
+    "location": [
+      60,
+      30
+    ]
+  },
+  {
+    "id": "s102",
+    "period": 1,
+    "minute": 20,
+    "second": 12,
+    "timestamp": "00:20:12.000",
+    "possession": 2,
+    "play_pattern": {
+      "name": "Open Play"
+    },
+    "team": {
+      "id": 2,
+      "name": "Team B"
+    },
+    "player": {
+      "name": "B2"
+    },
+    "type": {
+      "name": "Shot"
+    },
+    "location": [
+      40,
+      30
+    ]
+  },
+  {
+    "id": "r003",
+    "period": 1,
+    "minute": 30,
+    "second": 0,
+    "timestamp": "00:30:00.000",
+    "possession": 3,
+    "play_pattern": {
+      "name": "Open Play"
+    },
+    "team": {
+      "id": 1,
+      "name": "Team A"
+    },
+    "player": {
+      "name": "A1"
+    },
+    "type": {
+      "name": "Interception"
+    },
+    "location": [
+      50,
+      30
+    ]
+  },
+  {
+    "id": "s103",
+    "period": 1,
+    "minute": 30,
+    "second": 13,
+    "timestamp": "00:30:13.000",
+    "possession": 3,
+    "play_pattern": {
+      "name": "Open Play"
+    },
+    "team": {
+      "id": 1,
+      "name": "Team A"
+    },
+    "player": {
+      "name": "A3"
+    },
+    "type": {
+      "name": "Shot"
+    },
+    "location": [
+      80,
+      30
+    ]
+  },
+  {
+    "id": "r004",
+    "period": 1,
+    "minute": 40,
+    "second": 0,
+    "timestamp": "00:40:00.000",
+    "possession": 4,
+    "play_pattern": {
+      "name": "Open Play"
+    },
+    "team": {
+      "id": 1,
+      "name": "Team A"
+    },
+    "player": {
+      "name": "A1"
+    },
+    "type": {
+      "name": "Ball Recovery"
+    },
+    "location": [
+      60,
+      30
+    ]
+  },
+  {
+    "id": "s104",
+    "period": 1,
+    "minute": 40,
+    "second": 5,
+    "timestamp": "00:40:05.000",
+    "possession": 4,
+    "play_pattern": {
+      "name": "Open Play"
+    },
+    "team": {
+      "id": 1,
+      "name": "Team A"
+    },
+    "player": {
+      "name": "A2"
+    },
+    "type": {
+      "name": "Shot"
+    },
+    "location": [
+      68,
+      30
+    ]
+  },
+  {
+    "id": "r005",
+    "period": 1,
+    "minute": 50,
+    "second": 0,
+    "timestamp": "00:50:00.000",
+    "possession": 5,
+    "play_pattern": {
+      "name": "Open Play"
+    },
+    "team": {
+      "id": 1,
+      "name": "Team A"
+    },
+    "player": {
+      "name": "A1"
+    },
+    "type": {
+      "name": "Ball Recovery"
+    },
+    "location": [
+      40,
+      30
+    ]
+  },
+  {
+    "id": "mid5",
+    "period": 1,
+    "minute": 50,
+    "second": 3,
+    "timestamp": "00:50:03.000",
+    "possession": 5,
+    "play_pattern": {
+      "name": "From Corner"
+    },
+    "team": {
+      "id": 1,
+      "name": "Team A"
+    },
+    "player": {
+      "name": "A2"
+    },
+    "type": {
+      "name": "Pass"
+    },
+    "location": [
+      50,
+      30
+    ],
+    "end_location": [
+      60,
+      30
+    ]
+  },
+  {
+    "id": "s105",
+    "period": 1,
+    "minute": 50,
+    "second": 6,
+    "timestamp": "00:50:06.000",
+    "possession": 5,
+    "play_pattern": {
+      "name": "From Corner"
+    },
+    "team": {
+      "id": 1,
+      "name": "Team A"
+    },
+    "player": {
+      "name": "A3"
+    },
+    "type": {
+      "name": "Shot"
+    },
+    "location": [
+      80,
+      30
+    ]
+  }
+]

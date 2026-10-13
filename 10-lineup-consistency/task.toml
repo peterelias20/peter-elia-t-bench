@@ -1,0 +1,4 @@
+[task]
+name = "10-lineup-consistency"
+difficulty = "medium"
+timeout = 60

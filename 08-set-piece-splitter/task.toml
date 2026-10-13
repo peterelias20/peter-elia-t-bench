@@ -1,0 +1,4 @@
+[task]
+name = "08-set-piece-splitter"
+difficulty = "easy"
+timeout = 60

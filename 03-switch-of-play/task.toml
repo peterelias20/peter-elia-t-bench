@@ -1,0 +1,4 @@
+[task]
+name = "03-switch-of-play"
+difficulty = "medium"
+timeout = 60

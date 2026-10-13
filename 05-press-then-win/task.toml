@@ -1,0 +1,4 @@
+[task]
+name = "05-press-then-win"
+difficulty = "hard"
+timeout = 60

@@ -1,0 +1,4 @@
+[task]
+name = "06-shot-ending-sequences"
+difficulty = "medium"
+timeout = 60

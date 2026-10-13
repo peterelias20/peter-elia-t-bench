@@ -1,0 +1,4 @@
+[task]
+name = "07-crosses"
+difficulty = "easy"
+timeout = 60

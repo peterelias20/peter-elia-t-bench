@@ -1,0 +1,46 @@
+[
+  {
+    "team_id": 1,
+    "team_name": "Team A",
+    "lineup": [
+      {
+        "player_name": "A1",
+        "jersey_number": 1
+      },
+      {
+        "player_name": "A2",
+        "jersey_number": 2
+      },
+      {
+        "player_name": "A3",
+        "jersey_number": 3
+      },
+      {
+        "player_name": "A4",
+        "jersey_number": 4
+      },
+      {
+        "player_name": "A5",
+        "jersey_number": 5
+      }
+    ]
+  },
+  {
+    "team_id": 2,
+    "team_name": "Team B",
+    "lineup": [
+      {
+        "player_name": "B1",
+        "jersey_number": 1
+      },
+      {
+        "player_name": "B2",
+        "jersey_number": 2
+      },
+      {
+        "player_name": "B3",
+        "jersey_number": 3
+      }
+    ]
+  }
+]

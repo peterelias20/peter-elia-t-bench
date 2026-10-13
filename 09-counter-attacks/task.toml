@@ -1,0 +1,4 @@
+[task]
+name = "09-counter-attacks"
+difficulty = "hard"
+timeout = 60

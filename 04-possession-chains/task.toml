@@ -1,0 +1,4 @@
+[task]
+name = "04-possession-chains"
+difficulty = "medium"
+timeout = 60

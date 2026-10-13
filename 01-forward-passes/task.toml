@@ -1,0 +1,4 @@
+[task]
+name = "01-forward-passes"
+difficulty = "easy"
+timeout = 60
