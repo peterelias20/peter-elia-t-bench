@@ -2,16 +2,36 @@
 
 ## Goal: optimal recovery-to-shot matching
 
-Split the FULL stream into contiguous segment-key runs; split and exclude
-breaks. Recoveries are successful Duel/Interception/Ball Recovery with valid
-location; shots are Shot with valid location. Each segment has at most 12 of
-each. Candidate pairs require same team, `0 < shot_ms-recovery_ms <=12000`,
-and normalized shot_x-recovery_x >=15, all before rounding.
+A counter-attack is a transition phase: a ball recovery that progresses at
+least 15 m normalized forward within 12 s toward a shot, without an opponent
+touch or failed control killing the transition. A possession or play-pattern
+change (e.g. Open Play to From Corner) marks a new phase even when the ball
+is not touched, so the recovery and the shot must share one unbroken phase.
 
-Every event strictly BETWEEN the pair in CANONICAL ORDER (including records
-at either endpoint's timestamp) must avoid opponent control or unsuccessful
-control. Non-controls are transparent. Earlier same-team Shots do not break
-the candidate, so multiple recoveries/shots may compete.
+Segment FIRST. Split the FULL reconciled stream in canonical order into
+contiguous segment-key `(period, possession, play_pattern.name)` runs BEFORE
+any pairing. EVERY event counts for this split, including Pressure and every
+other non-control type: any key change starts a new run, and a return to an
+earlier key starts yet another run (never a reusable group). Break events also
+split runs and are excluded from all runs.
+
+Recoveries are successful Duel/Interception/Ball Recovery with valid
+location; shots are Shot with valid location. Each segment has at most 12 of
+each. Candidate pairs must lie in the SAME run and require same team,
+`0 < shot_ms-recovery_ms <=12000`, and normalized shot_x-recovery_x >=15,
+all before rounding.
+
+Blocker test SECOND (inside one run only). Every event strictly BETWEEN the
+pair in CANONICAL ORDER (including records at either endpoint's timestamp)
+must avoid opponent control or unsuccessful control. "Transparent" applies
+ONLY here: non-control events never block a pair in this test, and earlier
+same-team Shots do not break the candidate, so multiple recoveries/shots may
+compete. Transparency never exempts an event from the segmentation step above.
+
+Worked example: `rj` Ball Recovery (Open Play) at 90.0 s, `jbreak` Pressure
+(From Corner) at 90.5 s, `sj` Shot (Open Play) at 91.0 s, all same
+period/possession, form THREE runs, so `rj`/`sj` can never pair even though
+`jbreak` is transparent in the blocker test.
 
 Choose a one-to-one matching per segment: maximize pair count, then minimize
 total millisecond duration, then choose the lexicographically smallest sorted
