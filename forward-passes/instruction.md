@@ -58,8 +58,11 @@ The segment key is `(period, possession, play_pattern.name)`; a key change
 and subsequent return creates a new segment, never a reusable group.
 
 Where a reception is required, scan forward in the full reconciled stream.
-Stop at a break, any segment-key change, or the specified deadline. Ignore
-non-control events within that interval. The FIRST control event must be by the
+Stop at a break, any segment-key change, or the specified deadline. Skip over
+(i.e. look past, without removing from the stream) non-control events while
+scanning for that FIRST control event. This skip applies ONLY to reception
+search: it does NOT exempt non-control events from segment splits defined in
+each Goal section. The FIRST control event must be by the
 pass's `recipient.id` on the same team, be successful, have valid `location`,
 be strictly later in milliseconds, and be within Euclidean distance <=2 of the
 pass's raw `end_location`. Never skip a wrong first touch to find a later one.

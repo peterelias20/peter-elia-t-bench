@@ -58,8 +58,11 @@ The segment key is `(period, possession, play_pattern.name)`; a key change
 and subsequent return creates a new segment, never a reusable group.
 
 Where a reception is required, scan forward in the full reconciled stream.
-Stop at a break, any segment-key change, or the specified deadline. Ignore
-non-control events within that interval. The FIRST control event must be by the
+Stop at a break, any segment-key change, or the specified deadline. Skip over
+(i.e. look past, without removing from the stream) non-control events while
+scanning for that FIRST control event. This skip applies ONLY to reception
+search: it does NOT exempt non-control events from segment splits defined in
+each Goal section. The FIRST control event must be by the
 pass's `recipient.id` on the same team, be successful, have valid `location`,
 be strictly later in milliseconds, and be within Euclidean distance <=2 of the
 pass's raw `end_location`. Never skip a wrong first touch to find a later one.
@@ -262,15 +265,29 @@ all before rounding.
 
 Blocker test SECOND (inside one run only). Every event strictly BETWEEN the
 pair in CANONICAL ORDER (including records at either endpoint's timestamp)
-must avoid opponent control or unsuccessful control. "Transparent" applies
-ONLY here: non-control events never block a pair in this test, and earlier
-same-team Shots do not break the candidate, so multiple recoveries/shots may
-compete. Transparency never exempts an event from the segmentation step above.
+must avoid opponent control or unsuccessful control. "Transparent" is a
+blocker-test-only term: non-control events never block a pair in this test,
+and earlier same-team Shots do not break the candidate, so multiple
+recoveries/shots may compete. Transparency never exempts an event from the
+segmentation step above: a transparent event with a different segment key
+still cuts the run at the segmentation step, so the pair never reaches the
+blocker test.
 
 Worked example: `rj` Ball Recovery (Open Play) at 90.0 s, `jbreak` Pressure
 (From Corner) at 90.5 s, `sj` Shot (Open Play) at 91.0 s, all same
 period/possession, form THREE runs, so `rj`/`sj` can never pair even though
-`jbreak` is transparent in the blocker test.
+`jbreak` is transparent in the blocker test. Common mistake (and the reason
+the base fixture excludes `rj,sj`): treating a transparent `Pressure` as
+run-invisible. Precedence: if any other sentence in this prompt appears to
+say non-controls never split runs, this Segment FIRST paragraph overrides it
+for counter-attacks.
+
+Applying the transition-phase concept above is deliberate domain reasoning:
+a dead-ball pattern change ends the phase even with no touch, which is why
+the `rj`/`jbreak`/`sj` example forms three runs. Fixtures use the real
+StatsBomb event taxonomy, 120x80 pitch ranges, and `HH:MM:SS.mmm` timestamps;
+adversarial cases (revisions, deletes, name collisions, mirrored directions)
+simulate real feed noise while keeping grading deterministic.
 
 Choose a one-to-one matching per segment: maximize pair count, then minimize
 total millisecond duration, then choose the lexicographically smallest sorted
